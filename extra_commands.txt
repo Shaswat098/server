@@ -1,0 +1,1 @@
+.\.venv\Scripts\python.exe src\classify_image.py --image image_20251121_164619_0037.png

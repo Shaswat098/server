@@ -1,0 +1,31 @@
+{
+  "image": "data\\interim\\camera_captures\\exposure_diag_20261012_152023.png",
+  "shape": [
+    120,
+    160,
+    3
+  ],
+  "brightness": {
+    "mean": 5.724062919616699,
+    "maximum": 6.333333492279053,
+    "p99_5": 6.0,
+    "peak_threshold": 32.0,
+    "peak_pixel_count": 0
+  },
+  "brightest_region": null,
+  "fixed_crop": {
+    "left": 20,
+    "right_exclusive": 140,
+    "peak_pixels_inside": 0,
+    "peak_coverage": 0.0
+  },
+  "mean_color_dominance": {
+    "red": 1.9140625,
+    "green": -4.086093902587891,
+    "blue": 2.1720311641693115
+  },
+  "limitations": [
+    "Brightness and color concentration do not identify the LED semantic label.",
+    "A known-color, adequately exposed capture is required for crop-policy decisions."
+  ]
+}

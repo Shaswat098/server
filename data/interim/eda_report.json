@@ -1,0 +1,1551 @@
+{
+  "raw_root": "data\\raw\\led_lights_coco",
+  "splits": {
+    "train": {
+      "image_count": 94,
+      "annotation_count": 354,
+      "categories": {
+        "0": "leds",
+        "1": "blue",
+        "2": "green",
+        "3": "yellow"
+      },
+      "class_counts": {
+        "blue": 41,
+        "green": 303,
+        "yellow": 10
+      },
+      "images_without_annotations": 0,
+      "image_dimensions": {
+        "640x480": 94
+      },
+      "color_modes": {
+        "RGB": 94
+      },
+      "box_size_summary": {
+        "count": 354,
+        "min_width": 5.53,
+        "max_width": 37.48,
+        "min_height": 6.12,
+        "max_height": 37.61,
+        "min_area": 35.392,
+        "max_area": 1409.6227999999999
+      },
+      "bbox_mean_rgb_by_label": {
+        "blue": {
+          "count": 41,
+          "mean_r": 80.1301928985994,
+          "mean_g": 121.17820380328078,
+          "mean_b": 182.08399687290188
+        },
+        "green": {
+          "count": 303,
+          "mean_r": 104.71536901051107,
+          "mean_g": 133.1881986365993,
+          "mean_b": 87.08885865718224
+        },
+        "yellow": {
+          "count": 10,
+          "mean_r": 155.90688798221314,
+          "mean_g": 150.32296292244243,
+          "mean_b": 107.8194130886034
+        }
+      },
+      "images": [
+        {
+          "file_name": "002_jpg.rf.d0ccac080b5a95e0b60015f970ed0093.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 1,
+          "labels": [
+            "green"
+          ],
+          "sha256": "a3a48f27e7e6e067d93207ca5285b732c389fa3026aa574e2bb1371fa7fa43ee"
+        },
+        {
+          "file_name": "004_jpg.rf.c6c0917339d59eabbbd15bdd41ef2412.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 5,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "6e4ca787cf89c7090dbb55e6109c503950220864a14602ce75b67fb8c0c58d37"
+        },
+        {
+          "file_name": "005_jpg.rf.841ad7284f6ee34c666da0199f01330c.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "75979e473bfc7405c5839eb16e1f70049bd203ada53dd29b005094db5577a4a8"
+        },
+        {
+          "file_name": "006_jpg.rf.a57253c2960d753397bc14c0fa7e3cd7.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 6,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "bbd81874d7e94d4bc4669e704f9a301dc9c60e5503ae0721b997aa71f9cb7630"
+        },
+        {
+          "file_name": "008_jpg.rf.c3f8aaaff8a7eedb00878d740db75f82.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "c417c3517d4a129493a3f89da1385bdbcd946290d9e096eb15e7f9c3705b6117"
+        },
+        {
+          "file_name": "009_jpg.rf.4fa2d63aafc72ea62e85b5f63847b207.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 4,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "f4058fa3611ad7bd8102a49da3063d25e3be8eeba3ea477761299a8ca279298f"
+        },
+        {
+          "file_name": "011_jpg.rf.e00eb289838b284d8a0980617eae2f46.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "0e59a4f5bda7738547feae6c219f1e1ca16d5b297b83d392cfe2dca2a2cc9d83"
+        },
+        {
+          "file_name": "012_jpg.rf.e970d3c669cd152cd19ecdc60d618b5b.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 6,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "cbd9b6de027841e997438e0c2862e3ff3a43f7184062add59b870caf7765acd0"
+        },
+        {
+          "file_name": "013_jpg.rf.7535bd63da6966ffe07ead82f9158fbf.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 4,
+          "labels": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ],
+          "sha256": "2a21d70b39638ca847a4ce2cf61e324840aaa5ba6ddd6a4e1f173e3621764d5b"
+        },
+        {
+          "file_name": "014_jpg.rf.3756c7e9c7a8c4fccb8bfa233e7732fc.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "blue",
+            "blue",
+            "blue"
+          ],
+          "sha256": "16a552c0f08e891b70af872b1e2c1e27b9040f2080c393c3692fddac46209c02"
+        },
+        {
+          "file_name": "015_jpg.rf.b776691f90b2aff634ab88baf838f8f7.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "9a74e4425f19d26f09cc5c5af8679aea2b9b2693746c3c44a3659038289eddf5"
+        },
+        {
+          "file_name": "016_jpg.rf.a1fc6b2e4ce8d057e28dbb31b3190b55.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 7,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "26a704a54a97f0aa1b51f59bc44cc1cc737f92c1bdc68a72ba57e7fbc4db3684"
+        },
+        {
+          "file_name": "017_jpg.rf.a2b228df149c8be0c82221385779ae83.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "c53140c03e6476ea272abb92c362957762ea964af0d9b647323b02fc0f5ba200"
+        },
+        {
+          "file_name": "018_jpg.rf.07fdc274f7ac0986599dab1fa94f9df8.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "a7a1e3f73927c4ca24369e1c8886a48be55fb798853aba9328868579f76d6161"
+        },
+        {
+          "file_name": "019_jpg.rf.68795bd2fbf1bdec3207406aa62cc556.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 8,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "yellow"
+          ],
+          "sha256": "677a53e9e81da61fae3a79c58b6d960f22ba5f662488419f64bcdf53a92fcc2c"
+        },
+        {
+          "file_name": "021_jpg.rf.f36747bbf05e8dd0c7407c43f3259fbf.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 8,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "88d590e43120b3349dffc92be84f5ef360c6c9d1222ecb3d4f4ba9505fcf9175"
+        },
+        {
+          "file_name": "022_jpg.rf.c8eb2ac7a989a9dec11fb470a572bd67.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "e61f7b7559fdad70d59ea01c10597c51a0d7481928afd06345a993be527788a4"
+        },
+        {
+          "file_name": "023_jpg.rf.13fa31f3f80de59e39916d9d4a112f02.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 6,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "yellow",
+            "yellow",
+            "yellow"
+          ],
+          "sha256": "4c13274b1c43f446eea04820dd69183585251188b55882f9b1344df804d70f26"
+        },
+        {
+          "file_name": "025_jpg.rf.b4a63de57c92aa0f682a118963625725.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 11,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "6e2d9f004712290929398b2d15e676f9e54a7d3fa24deab66ff530d01dc342a7"
+        },
+        {
+          "file_name": "026_jpg.rf.18ea24a6404901aa31035b15cb46b1df.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 1,
+          "labels": [
+            "green"
+          ],
+          "sha256": "3cc78f1049240f51b86b1bc8f3e9b7840605f3590bc9a436c2ae0606b47484df"
+        },
+        {
+          "file_name": "027_jpg.rf.0dfa724561d325797ee05f99bdc68a33.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "blue",
+            "blue",
+            "blue"
+          ],
+          "sha256": "5b0b9f7fc4d0de0e36547cac1b4e30ef2f53cd4ff12f438c5862404578df8b91"
+        },
+        {
+          "file_name": "028_jpg.rf.8b67b04b8031590072a6dc93a8a3da59.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "blue",
+            "blue"
+          ],
+          "sha256": "9b970a9b6907aba171cbcec749cc1118bd2df17742014771d883e609a856c0d0"
+        },
+        {
+          "file_name": "030_jpg.rf.cea033d125f1791ea21dfad06c06f0ba.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "e79ff820991feade6a3a65ce799deec5ce049644b9db9c55ee07cb89c2a6955b"
+        },
+        {
+          "file_name": "031_jpg.rf.eb5170836ce7737c921c5022a5855d9f.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "e574edcf3e0e49b00ea2ffa0756fa7b12c8a37f2f996690d38b4b8d8f9cbe7a0"
+        },
+        {
+          "file_name": "033_jpg.rf.8b5ba022c1f066e5941bccfaaa529a44.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 9,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "yellow",
+            "yellow"
+          ],
+          "sha256": "8d3cc7e7fb642d829b094ec93797424677d80b94ee31c47d49329dc3e725ea4e"
+        },
+        {
+          "file_name": "036_jpg.rf.121d8d34288c3ae5b3d6f27529b935ac.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "fe6a9deea474c722a4a0e40cfd33044ca36103c3472834ae51b0fe4d81bd53e1"
+        },
+        {
+          "file_name": "037_jpg.rf.482b75bf24ad476749c66f075ec17619.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 4,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "d04cb1a509e80a098606465c9d4503603d79f69cb4aa7dc764ef992c883db8f0"
+        },
+        {
+          "file_name": "038_jpg.rf.8d63b4bb757d4290e8f907fbfe819cd6.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 1,
+          "labels": [
+            "yellow"
+          ],
+          "sha256": "ff41568975bfb1047e97a2f5a0b3b916d67e40c4a4cd32135a7e642d8526872c"
+        },
+        {
+          "file_name": "040_jpg.rf.da194e69ab030d65bbfcc78e69cf42ba.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 4,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "88aa66b5f3d8b4334dbc75c164c86a8e9637739dc881ec9833a2c6a838a215ae"
+        },
+        {
+          "file_name": "041_jpg.rf.25b23cdbff7ff071c5ac83ad8a76156d.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "a8127a46f810cb5e7b4114720ee5e385b830f41e880179b10311452894635598"
+        },
+        {
+          "file_name": "043_jpg.rf.cc09a61d8e4e709a1d5cab4e6e25d8b0.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 1,
+          "labels": [
+            "green"
+          ],
+          "sha256": "f3958d9e599b14a5a6cb991a0b459c5e3c7b94a73744d9ff451fe5cd90fbeca1"
+        },
+        {
+          "file_name": "044_jpg.rf.93c34478207ee2dc2bc973906ad1e4a6.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "e2c100c5f2b5e5762a897d07de3de0dcaf8b092d8812b2a4397e0a4ba1f0a291"
+        },
+        {
+          "file_name": "045_jpg.rf.6cadcaa35ae7300f04e2f6e2c5ce3945.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 4,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "2fcd725b3f8ab5dc4a60c36a470a00574fb4e6b18c8503a795565293f45cf5d7"
+        },
+        {
+          "file_name": "046_jpg.rf.b212d84eb07537f2456cb3bf4b4c7fc4.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 6,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "af3f4fa8f14c93cd498cc9393c323605f903a20189360f4842a9076aa0264d25"
+        },
+        {
+          "file_name": "047_jpg.rf.056a5d7bf5f8b28afc24f230c4ba20bf.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 4,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "0b6b4d3b6d0597629276f92f851141c7bba648d00a43fa03a1f738a75ad2cd60"
+        },
+        {
+          "file_name": "050_jpg.rf.1e604375048b7cede72ade1da2f02d30.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "c37fe2ed43146d1bec20fa540a145b58ebe6a53d044f4c9160c5b0e37d55e352"
+        },
+        {
+          "file_name": "052_jpg.rf.3ae846c0b8e2e9ec8623f15a7f1b71e6.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 4,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "c4296dfcdf1c5b189c487d531b8e875db8b67377ef8092776f0a3648ef20bd79"
+        },
+        {
+          "file_name": "056_jpg.rf.3b273fc138266eed5102396a7f25f219.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "5e5a29faa506917e67e15f38695b1fe96645fcda4714a188d65eaf76ae4eed36"
+        },
+        {
+          "file_name": "057_jpg.rf.bb39d4e2c00890980351465c6137e457.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 4,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "675c226147486102c69343da9b4b36b20860f696883ce52d5a0930a4e1c8f196"
+        },
+        {
+          "file_name": "058_jpg.rf.c2b5d3a0563a7c960d8002a1c9080786.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "d318086ae39daed72ddc8e55251da87ad3cdbcf9a90e544c4854e25fbbeedc71"
+        },
+        {
+          "file_name": "060_jpg.rf.938d0687b6c2a872f570b9ca7bec791f.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 9,
+          "labels": [
+            "blue",
+            "blue",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "d61a6703ba27f68afb41fe959fa4413322908703392b0f077405a86fa46ea83d"
+        },
+        {
+          "file_name": "061_jpg.rf.c001a78bf5485ab3d799dcbbaf06bfce.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "a49ce5ad5b9b2e2a337b6e36bb43ad634793ebce2d57876a042d792f80bcda68"
+        },
+        {
+          "file_name": "062_jpg.rf.0356a2934b01c4d1c2871256cacdc3a2.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "green",
+            "green",
+            "yellow"
+          ],
+          "sha256": "d5ac8efa64925723114b19e418b415e2117b9f2b2c4c9d55c26b9bed82f9435c"
+        },
+        {
+          "file_name": "064_jpg.rf.a553dd41ee2effde2fbf4e5d908b1cf5.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 1,
+          "labels": [
+            "green"
+          ],
+          "sha256": "0a06b08ced8190da75ae8efdfa8d6970c1c950b7e9aa0d409a25df13e019ec72"
+        },
+        {
+          "file_name": "067_jpg.rf.9d1cb5d73cdd511a0264363fb725f1a0.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "735b7720d3c52b06d84643703a2a883d4a3987f4ae8d4d1982a3f547bc817387"
+        },
+        {
+          "file_name": "071_jpg.rf.389cb769586dcd871e38acbd46538e02.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 4,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "4ba9aaf9460dbbc5661ddd95c687b541623e7eaf3782f10b3d3db8eea297de43"
+        },
+        {
+          "file_name": "074_jpg.rf.2d62c89fa30b0494b932b35763713546.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "62afabfd75ff39c286ce05c51672d636ffed5b7d6c2f60207a76dfe731203629"
+        },
+        {
+          "file_name": "077_jpg.rf.0a6e5c4de93d2526bd82fe25d52c9c3c.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "blue",
+            "blue",
+            "blue"
+          ],
+          "sha256": "c488803012536c82d50e73474a225b3f2c147eea71350f53001658b7e4d065d1"
+        },
+        {
+          "file_name": "079_jpg.rf.f409e8a4dbd3dfa2bfb728cf8842b8bf.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "blue",
+            "blue",
+            "blue"
+          ],
+          "sha256": "5b7978d62b9f9422b6b46b1a3596b02611ac042a785cc0e54af4b495592c3e9a"
+        },
+        {
+          "file_name": "082_jpg.rf.fd6b93d30a1a846dee53b855351cab41.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "0502d0aa76f55a7f602ca19c98abee20c344d696c183727c5174d5add45b5c35"
+        },
+        {
+          "file_name": "084_jpg.rf.c96fc6dec27feddbf65e969f8bb2a751.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "dceeb7b042388fec6271ba3c9e4ee26d563cd69881b851854b50f7e48e809b5e"
+        },
+        {
+          "file_name": "092_jpg.rf.fb2463ce0b00d3b228319f668e719c42.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "d2b4b1c1bb8677cc6dab2c1ddf25f30ffa0ef8e4c114368cf38c46b8d7220e55"
+        },
+        {
+          "file_name": "093_jpg.rf.d559f2bbd7073f6e67dfd67c8f5691bc.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "13b7a280887af39e984abbb2c9002a89cd0546dcdbcf45ac1dc2ad57205b6e8a"
+        },
+        {
+          "file_name": "096_jpg.rf.ff13c19d5cb5dd200a1d2def67752ab6.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 6,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "yellow"
+          ],
+          "sha256": "d9806d8aebd8aef1c80faa6eab97116781b7d518947bb4c555ac811a0b713f21"
+        },
+        {
+          "file_name": "image_20251121_163607_0002_png.rf.a95c1597c2110ec8baa8335b3c9642e3.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "blue",
+            "blue"
+          ],
+          "sha256": "c604dd3f15dd07e875208fa0a7e74dd69136d3161e5fa8856586c63747fd3029"
+        },
+        {
+          "file_name": "image_20251121_163618_0003_png.rf.f9cd3be51bd9d7a3d5e9fcb711872ec6.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "blue",
+            "blue",
+            "blue"
+          ],
+          "sha256": "f77ec93bb2d6566aeb13f75efc73914b9e8e1c4aa91733dae5b61a9fab8303fc"
+        },
+        {
+          "file_name": "image_20251121_163623_0004_png.rf.b3e8907064d7cec12917c6e57841e1c5.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "blue",
+            "blue",
+            "blue"
+          ],
+          "sha256": "4cd7f254343c5d75e3c0f7121cc9dcea830e038d0b4cc80ae9daeb68a072a062"
+        },
+        {
+          "file_name": "image_20251121_163630_0005_png.rf.ebcd86bcf9b37286a2cb47e340cf72ca.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 5,
+          "labels": [
+            "blue",
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ],
+          "sha256": "6fbb5add5b6b5c1fa9b0b90007b5fe2265e2afd37959462f5cfa43974985cfff"
+        },
+        {
+          "file_name": "image_20251121_163711_0006_png.rf.91e29fa44dbd5abe78231a2a797b0ab6.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 6,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "25a8f4c08f387b73c6fa2a4935263f54ba9f27548acbd197f13e772d9fbe920f"
+        },
+        {
+          "file_name": "image_20251121_163718_0007_png.rf.a84ce5a6aa045e08c19a54289b5155bb.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 6,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "46ff3f686362909c37a96b8e44eeddbe69e53fa9c3bba75fecb8bbd021c7e3c7"
+        },
+        {
+          "file_name": "image_20251121_163759_0008_png.rf.08d0cf5416349875c3ff112650b64f7d.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 6,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "3e78739852fb3235666a7d7002b3f88287f9a707e8cb6344e737c67136967fc6"
+        },
+        {
+          "file_name": "image_20251121_163804_0009_png.rf.a014579b4e9d37d23343bc645d7cfb80.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 4,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "8769d9f61a4227d13bfd8ed9bbb20535ef833a59dbdade59bcef3de3fd1089e4"
+        },
+        {
+          "file_name": "image_20251121_163901_0010_png.rf.79f6a4c319a5aea9a8f0c7780b62d0ee.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 5,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "a3318a22500f0b6469d59ba1b7b19cf9f0cf6d04aa48d14cc1d1912651deb790"
+        },
+        {
+          "file_name": "image_20251121_163910_0011_png.rf.afd7c5d87c5eb98f6340606bad319512.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 5,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "ab096cabba949d074d8e29091650d3d0b804e3d5331ad54f678a54d5da736356"
+        },
+        {
+          "file_name": "image_20251121_163914_0012_png.rf.4174c3bf52131e65c186bccaca8315ef.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "cfeb8f7abd2ea0a6cd76cd6cd97473ba72d37a668c2bea9a45022b7ed1bd45d7"
+        },
+        {
+          "file_name": "image_20251121_163927_0014_png.rf.9b9fe211531f261589b129ab322939a6.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 4,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "170fd7508fed81b804a005391fc9b1b0506c69a7cdee6f399cab66cc66f72b9a"
+        },
+        {
+          "file_name": "image_20251121_163933_0015_png.rf.ebb9149dedffd8ded26edd2ebd750d89.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "e266a6248a0bc098e0c57e162336232c757a3f953ff824ac07a8251c8e6cde8f"
+        },
+        {
+          "file_name": "image_20251121_164022_0016_png.rf.afa378b3c8608871d82726120434f320.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "adce4de9a4de57e8215300a78990f3861394dbc7cc790858dcc4f7fa701c6774"
+        },
+        {
+          "file_name": "image_20251121_164037_0017_png.rf.3a78e2d4dab66a9730d0b33670ef4a11.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "6582d305f12181a38f30a31699517da3ea9bfcf79d8d806ce573a1ed93e54b25"
+        },
+        {
+          "file_name": "image_20251121_164050_0018_png.rf.b4c3b1ae9bad35711ec47e5852d810e5.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 5,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "85cc89cc2a18dcdaf6cde129e5c1f833008f8697ba5ac5b42a758ba67d2fef6c"
+        },
+        {
+          "file_name": "image_20251121_164057_0019_png.rf.77b229bc70300a0e2b19211d90c9134d.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 4,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "85f79a4067b3a1334e53d7b092ce4f0aa5ca7957f6c0385fcf3765c62762beb6"
+        },
+        {
+          "file_name": "image_20251121_164133_0020_png.rf.850a6c29e46278131cf32130edd5a39b.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "f88b2fc71e4a0fc05ca199b5b37b95309e4c2e35aaf3664b92edce3f5d6734db"
+        },
+        {
+          "file_name": "image_20251121_164137_0021_png.rf.bf3ee89d9c18e73de5cd88a9f1230c1a.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "cae5aced283f4a487acd607c69c57853a48396f86c972c8e37380bba3b99d78b"
+        },
+        {
+          "file_name": "image_20251121_164141_0022_png.rf.a6bc705b562327822bb24cc8d48f4658.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "acf84658042ef7a42e00c40466879bc72d109a0e8b2a8472736e922cff4b6c8c"
+        },
+        {
+          "file_name": "image_20251121_164200_0023_png.rf.77225a73ceab18f9dd96733255cf6f3b.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 8,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "c02540d13ab06552cadd706ae5781cbcfc8ab4e688431de9953109ae93c6f9c0"
+        },
+        {
+          "file_name": "image_20251121_164251_0024_png.rf.675a20be2f8f52e5668f4b726f396373.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "blue",
+            "green",
+            "green"
+          ],
+          "sha256": "789dd36b37b2aa30b7460d9029a340dc61d716ca70057491c280f7bbd54eeda3"
+        },
+        {
+          "file_name": "image_20251121_164259_0025_png.rf.aa9eaba36fabb068f96c59666757cb4b.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 5,
+          "labels": [
+            "blue",
+            "blue",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "14c484d30fb33f4eac09ac87ed346a9b98496d041468871f79a4e51527b40247"
+        },
+        {
+          "file_name": "image_20251121_164303_0026_png.rf.99d96e0953bfacd8dbb834dfbcb102a3.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "blue",
+            "green",
+            "yellow"
+          ],
+          "sha256": "83145ee625a6cc8c409a260f9ec99430caf189a1360adc0d7129473845bdd56d"
+        },
+        {
+          "file_name": "image_20251121_164320_0028_png.rf.0f007261ea3917324306bed8ba94d77f.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 6,
+          "labels": [
+            "blue",
+            "blue",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "c9e0660024d6c99254b9c1fc51b9d15f53fc1f9c30be0ffab54b140a8ef2c96e"
+        },
+        {
+          "file_name": "image_20251121_164434_0029_png.rf.208da82c0116626d3ae22b784bb74126.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "609df5d570bf0484c107b824f000937810017f245c6133b51b7fd375fc9cd44b"
+        },
+        {
+          "file_name": "image_20251121_164452_0032_png.rf.14a237ab592eba29b4917457394c480e.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "blue",
+            "blue",
+            "green"
+          ],
+          "sha256": "227893f9bd78adf84ebc3c33ccaa5a67e61fa8a8e9c7f8645957d15a11313c24"
+        },
+        {
+          "file_name": "image_20251121_164501_0033_png.rf.3db2e65e2c228fafc095f2a88e066baa.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "bad199af5c5da991e61e35fc87555eee03c2399406700a12297859cba0f20338"
+        },
+        {
+          "file_name": "image_20251121_164553_0034_png.rf.ff4174c2ebac0847d88200e15f463fea.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "0fadff95f5a84d88910826fb08aa6674ebc48cc19be6d0d32ab8d9809570e32f"
+        },
+        {
+          "file_name": "image_20251121_164557_0035_png.rf.313142ca9452691b4f5dfbbe4d106192.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "420e8e604557cf2c9dae1e18c643cd647057b874e7578646e36d49bf5371a015"
+        },
+        {
+          "file_name": "image_20251121_164611_0036_png.rf.86c9d33292fb8a9cf855fa13eabc51f4.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 9,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "e146dddb7cece4839a2364a1fc8d0626ef39cfaf9936d8eee55c6495d0914285"
+        },
+        {
+          "file_name": "image_20251121_164619_0037_png.rf.aa52aad731287bfa6c8c4afec3188b18.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 6,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "4f70f851914182e1dcc3f8fb54d75bdc793948c4f9dd3a4173a56a23644aade8"
+        },
+        {
+          "file_name": "image_20251121_164704_0038_png.rf.5dbc617c8b0ea497b1b41e806999f967.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 7,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "2b7ea8f143dfa6198657f9c8308b647756b34bf1d90726fe1ee0e61685ffd285"
+        },
+        {
+          "file_name": "image_20251121_164708_0039_png.rf.a43afe5acda6b0641cb690c94f3b627c.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 4,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "7626741cdfc8936552aefaae9cacff0ca3d68c9c7a728736de7fc766b95eb159"
+        },
+        {
+          "file_name": "image_20251121_164712_0040_png.rf.688f4ab66ffd9f269f89b680aa1ad422.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 5,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "4a1b29c86f58fd51ff5c4b949df7c4c1b26ac51d2db15c7bfb497a27edd81c8e"
+        },
+        {
+          "file_name": "image_20251121_164758_0041_png.rf.8a6ddd04b83fc9ebaa4f119626e433a9.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 6,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "97ed9d266834957f5a200016d704afeb102a174384bd08a0f341bdf6f9be6c9c"
+        },
+        {
+          "file_name": "image_20251121_164805_0042_png.rf.8ec7501533737527190ba879783ff96d.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 4,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "e30d1bcf6520fb38719bda422d55a86a7438d99a35f8dee1875df4eed307a0ad"
+        },
+        {
+          "file_name": "image_20251121_164810_0043_png.rf.1976188c158f9f95d47bcddf449781ee.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 4,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "86171fc9aa1352914b6ac6bcd64211eb1ec3f91688e10533da4a247efc0d5145"
+        },
+        {
+          "file_name": "image_20251121_164856_0045_png.rf.fdd3a52301cc71689d048ecee12ac893.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 1,
+          "labels": [
+            "green"
+          ],
+          "sha256": "1f57403d31f0103223949b1cc1376cfee61db83b19f3db7447acd3cfb4e499e5"
+        },
+        {
+          "file_name": "image_20251121_164902_0046_png.rf.f076338e2e99dd0c26e9d3a751048918.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 1,
+          "labels": [
+            "green"
+          ],
+          "sha256": "f13a7b698dae05abbba99e3e0c37ea745212c5f6e2ee24085fe45fbadf892b46"
+        }
+      ]
+    },
+    "valid": {
+      "image_count": 10,
+      "annotation_count": 36,
+      "categories": {
+        "0": "leds",
+        "1": "blue",
+        "2": "green",
+        "3": "yellow"
+      },
+      "class_counts": {
+        "blue": 10,
+        "green": 26
+      },
+      "images_without_annotations": 0,
+      "image_dimensions": {
+        "640x480": 10
+      },
+      "color_modes": {
+        "RGB": 10
+      },
+      "box_size_summary": {
+        "count": 36,
+        "min_width": 8.45,
+        "max_width": 28.78,
+        "min_height": 7.57,
+        "max_height": 30.23,
+        "min_area": 64.04220000000001,
+        "max_area": 870.0194
+      },
+      "bbox_mean_rgb_by_label": {
+        "blue": {
+          "count": 10,
+          "mean_r": 88.02199349823354,
+          "mean_g": 131.10765765544346,
+          "mean_b": 195.01626057906907
+        },
+        "green": {
+          "count": 26,
+          "mean_r": 110.20316815262458,
+          "mean_g": 131.28171179425988,
+          "mean_b": 89.88847789562858
+        }
+      },
+      "images": [
+        {
+          "file_name": "007_jpg.rf.c4cdda97fb2f4b17bca991bd17fc5bb6.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "4fc0e9f12defbe9eed5ff21b1e5255a30d993b472fed08508006ea46620083da"
+        },
+        {
+          "file_name": "029_jpg.rf.a9b444b4b127b294f4ad419ccf3fe8c8.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 1,
+          "labels": [
+            "green"
+          ],
+          "sha256": "216bd3d298f339f7c389d0b859ac326ddf7e5ac0aaba4203a2d3b0f2ff07569e"
+        },
+        {
+          "file_name": "032_jpg.rf.c2b5cb6217c3ce0c0e5c68166a936c8d.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "6fc9a103cb8306258dfbf22f27db9f220485d557cc18d148c7241a35fc7ac84f"
+        },
+        {
+          "file_name": "042_jpg.rf.f1896e91bce4968095fd8697eebe7627.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "068f07c58dc4eb90955ce73e65c631ecbb92c50ccc72ccc65518596e1d44722d"
+        },
+        {
+          "file_name": "094_jpg.rf.883980aed5005cfee7c57b36ec89a2fa.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 11,
+          "labels": [
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "1974601c6e0b7008ffea3883b4c4295356b01db8ae414014ddd74f373777bc86"
+        },
+        {
+          "file_name": "image_20251121_163548_0000_png.rf.27f6fc1e0b23c55910b02f5ea95f399b.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "blue",
+            "blue",
+            "blue"
+          ],
+          "sha256": "f344114ea5e1795be85637e2ab8a573582b51fcb70d3b701b549316c1d5d1fe5"
+        },
+        {
+          "file_name": "image_20251121_163602_0001_png.rf.7ad56409072e849f248f3fd5d955e0c3.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 3,
+          "labels": [
+            "blue",
+            "blue",
+            "blue"
+          ],
+          "sha256": "d67e8d31dd1b4228d30aae6bfa24c7cf4799b0fbee1581311774eb0b85d30a1e"
+        },
+        {
+          "file_name": "image_20251121_163920_0013_png.rf.835915f0c5903bc30db439dad1fd4b44.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "green",
+            "green"
+          ],
+          "sha256": "3f1fb51e909502fc49497eaa2dc06e84fd74776ffa858923e5d45818d4eeb7ca"
+        },
+        {
+          "file_name": "image_20251121_164312_0027_png.rf.006dea202dfae12ffc303011eb80085d.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 5,
+          "labels": [
+            "blue",
+            "blue",
+            "green",
+            "green",
+            "green"
+          ],
+          "sha256": "d8f92d5b04ec3faf4b4d8a307fd22523b0d1f53d442f36ca1e0fd6193d80b3c2"
+        },
+        {
+          "file_name": "image_20251121_164446_0031_png.rf.d901c3c2d3f41ae3fe5a4db48a54ff4c.jpg",
+          "width": 640,
+          "height": 480,
+          "mode": "RGB",
+          "annotation_count": 2,
+          "labels": [
+            "blue",
+            "blue"
+          ],
+          "sha256": "e51600a33a178dd7cf6581e30a97b420270a40612cbfca4733160f33e0952d2a"
+        }
+      ]
+    }
+  },
+  "duplicates": {
+    "exact_duplicate_groups": [],
+    "source_stem_groups": []
+  },
+  "cross_split_filename_overlap": [],
+  "binary_label_mapping": {
+    "green": 0,
+    "yellow": 1
+  },
+  "excluded_labels": [
+    "blue"
+  ],
+  "limitations": [
+    "COCO object annotations do not establish that each image has one independently sampled device.",
+    "Filename and exact-pixel duplicate checks cannot prove absence of near-duplicate views or session leakage.",
+    "LED color is a proxy for server status, not proof of server health."
+  ]
+}

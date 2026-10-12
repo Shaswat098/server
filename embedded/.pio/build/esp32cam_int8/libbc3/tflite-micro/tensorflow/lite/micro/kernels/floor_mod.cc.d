@@ -1,0 +1,23 @@
+.pio/build/esp32cam_int8/libbc3/tflite-micro/tensorflow/lite/micro/kernels/floor_mod.cc.o: \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/kernels/floor_mod.cc \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/kernels/internal/reference/floor_mod.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/kernels/internal/reference/binary_function.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/kernels/internal/common.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/kernels/internal/compatibility.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/compatibility.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/micro_log.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/kernels/internal/cppmath.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/kernels/internal/fixedpoint.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/kernels/internal/optimized/neon_check.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/kernels/internal/runtime_shape.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/kernels/internal/types.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/kernels/internal/reference/broadcast_loop.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/kernels/internal/reference/process_broadcast_shapes.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/kernels/kernel_util.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/builtin_op_data.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/micro_common.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/kernels/internal/tensor_ctypes.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/micro_context.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/micro_graph.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/micro_profiler_interface.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/micro_utils.h

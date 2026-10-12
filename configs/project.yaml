@@ -1,0 +1,29 @@
+seed: 20260914
+data:
+  raw_root: data/raw/led_lights_coco
+  interim_root: data/interim
+  processed_root: data/processed
+  binary_labels:
+    green: 0
+    yellow: 1
+  excluded_labels:
+    - blue
+model:
+  input_size: 64
+  channels: 3
+preprocessing:
+  crop_padding_fraction: 0.25
+  resize: 64
+  augmentation: none
+split:
+  seed: 20260914
+  ratios:
+    train: 0.70
+    valid: 0.15
+    test: 0.15
+training:
+  epochs: 60
+  batch_size: 32
+  learning_rate: 0.001
+  early_stopping_patience: 12
+  loss: weighted_cross_entropy

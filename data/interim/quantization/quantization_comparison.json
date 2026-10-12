@@ -1,0 +1,124 @@
+{
+  "seed": 20260914,
+  "candidate": "B depthwise-separable CNN",
+  "source_checkpoint": "data\\interim\\architecture_comparison\\candidate_b_depthwise.pt",
+  "quantized_engine": "x86",
+  "calibration_policy": "train split only",
+  "train_sample_count": 228,
+  "train_class_counts": {
+    "0": 221,
+    "1": 7
+  },
+  "class_weights": [
+    0.5158371329307556,
+    16.285715103149414
+  ],
+  "results": {
+    "float32": {
+      "format": "PyTorch float32 state_dict",
+      "serialized_state_dict_bytes": 9388,
+      "test": {
+        "loss": 0.6370448768138885,
+        "accuracy": 0.9672131147540983,
+        "precision_yellow": 0.0,
+        "recall_yellow": 0.0,
+        "f1_yellow": 0.0,
+        "recall_green": 1.0,
+        "confusion_matrix": [
+          [
+            59,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "sample_count": 61,
+        "yellow_count": 2
+      }
+    },
+    "dynamic_range": {
+      "format": "dynamic int8 Linear weights; convolution weights remain float32",
+      "serialized_state_dict_bytes": 9958,
+      "test": {
+        "loss": 0.6369311809539795,
+        "accuracy": 0.9672131147540983,
+        "precision_yellow": 0.0,
+        "recall_yellow": 0.0,
+        "f1_yellow": 0.0,
+        "recall_green": 1.0,
+        "confusion_matrix": [
+          [
+            59,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "sample_count": 61,
+        "yellow_count": 2
+      },
+      "conversion_seconds": 0.05160759999853326
+    },
+    "full_int8": {
+      "format": "post-training static int8",
+      "serialized_state_dict_bytes": 16786,
+      "test": {
+        "loss": 0.6371697932481766,
+        "accuracy": 0.9672131147540983,
+        "precision_yellow": 0.0,
+        "recall_yellow": 0.0,
+        "f1_yellow": 0.0,
+        "recall_green": 1.0,
+        "confusion_matrix": [
+          [
+            59,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "sample_count": 61,
+        "yellow_count": 2
+      },
+      "calibration_samples": 228,
+      "conversion_seconds": 0.38525880000088364
+    },
+    "qat": {
+      "format": "quantization-aware training followed by int8 convert",
+      "serialized_state_dict_bytes": 16786,
+      "test": {
+        "loss": 0.6346156448125839,
+        "accuracy": 0.9672131147540983,
+        "precision_yellow": 0.0,
+        "recall_yellow": 0.0,
+        "f1_yellow": 0.0,
+        "recall_green": 1.0,
+        "confusion_matrix": [
+          [
+            59,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "sample_count": 61,
+        "yellow_count": 2
+      },
+      "qat_epochs": 20,
+      "conversion_and_training_seconds": 8.637093000004825
+    }
+  },
+  "limitations": [
+    "The test set contains only two yellow crops; quantized fault recall is not stable evidence.",
+    "Candidate B was used as the embedded-size hypothesis, not a selected final health model.",
+    "LED color is a proxy for server status, not proof of server health."
+  ]
+}

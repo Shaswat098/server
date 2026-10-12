@@ -1,0 +1,18 @@
+{
+  "model_header": "embedded\\model_data.h",
+  "model_bytes": 9848,
+  "input_contract": {
+    "shape": [
+      64,
+      64,
+      3
+    ],
+    "dtype": "float32",
+    "range": [
+      0.0,
+      1.0
+    ]
+  },
+  "parity_fixture": "embedded\\parity_fixture.h",
+  "parity_samples": 61
+}

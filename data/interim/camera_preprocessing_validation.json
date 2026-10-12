@@ -1,0 +1,48 @@
+{
+  "frame_shape": [
+    120,
+    160
+  ],
+  "crop": {
+    "left": 20,
+    "top": 0,
+    "width": 120,
+    "height": 120
+  },
+  "resize": "nearest_neighbor_with_source_index=floor(output*120/64)",
+  "input_quantization": {
+    "scale": 0.003921568859368563,
+    "zero_point": -128,
+    "dtype": "int8"
+  },
+  "expected_source_coordinates": {
+    "top_left": [
+      0,
+      20
+    ],
+    "bottom_right": [
+      118,
+      138
+    ]
+  },
+  "output_shape": [
+    64,
+    64,
+    3
+  ],
+  "output_range": [
+    -128,
+    -120
+  ],
+  "checks": {
+    "crop_in_bounds": true,
+    "output_dtype_int8": true,
+    "output_shape_64x64x3": true,
+    "quantized_range_valid": true
+  },
+  "limitations": [
+    "This is a deterministic contract test, not a validation of LED location.",
+    "It does not prove equivalence to the annotated crop and Lanczos training pipeline.",
+    "A real camera capture fixture is still required before selecting the crop policy."
+  ]
+}

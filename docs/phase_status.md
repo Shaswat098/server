@@ -1,0 +1,13 @@
+# Phase Status
+
+| Phase | Name | Status | Notes |
+|---|---|---|---|
+| 0 | Environment check + dataset audit + project skeleton | Done | Verified Python 3.11, CPU PyTorch 2.5.1, 104 JPEGs, COCO categories, and annotation counts. Raw export preserved. |
+| 1 | EDA (class balance, dims, duplicates, leakage risk, separability) | Done | Measured dimensions, class balance, bbox geometry, exact duplicates, filename overlap, and coarse bbox RGB diagnostics. Yellow is absent from valid; near-duplicate/device leakage remains unresolved. |
+| 2 | Data pipeline: cleaning, blue exclusion, leakage-safe split | Done | Derived 339 RGB 64x64 crops; blue excluded; source-image grouped train/valid/test split with 7/1/2 yellow crops. Device/session grouping remains unavailable. |
+| 3 | Baseline CNN training (Candidate A) | Done | Trained deterministic 6,098-parameter CNN. Test yellow recall was 0/2; results are feasibility evidence only because fault counts are tiny. |
+| 4 | Architecture comparison (A vs. depthwise-separable B vs. transfer learning C) + selection | Done | Compared A and B under identical settings. B is 1,056 parameters but both models had 0/2 yellow test recall. C deferred: torchvision and cached weights unavailable; no final selection made. |
+| 5 | Quantization (fp32 / dynamic / INT8 / QAT comparison) | Done | Compared all four modes on Candidate B with train-only calibration (228 samples). All had 0/2 yellow test recall; deployment-format size remains for Phase 6. |
+| 6 | TFLite conversion + desktop verification | Done | Exported and verified float32 and full-integer INT8 Candidate B artifacts. Float32 max TFLite/PyTorch logit error is 1.79e-07; INT8 flatbuffer is 9,720 bytes with train-only calibration and 0/2 yellow test recall. |
+| 7 | Embedded integration (TFLite Micro / ESP) + desktop-vs-embedded parity test | Done | On COM8/ESP32-D0WD-V3: float32 parity passed at 586,318 us mean invoke; INT8 parity passed at one raw-count tolerance with 592,041 us mean invoke. Both use a 256 KiB PSRAM arena. OV2640 capture and both float32/INT8 camera inference paths passed. Length-framed software-JPEG capture at 921600 baud now produces a bright 160x120 image. The separate livestream diagnostic now continuously classifies displayed frames with explicit green, yellow, blue, and unknown color-policy states; known-color calibration and crop-policy review remain open. |
+| 8 | Final evaluation report + docs polish + decision log review | Done | Added final evaluation, model card, deployment handoff, experiment index, and corrected hardware/readme text. Camera-policy validation and an INT8 camera path remain open. |

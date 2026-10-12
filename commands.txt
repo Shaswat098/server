@@ -1,0 +1,1 @@
+.\.venv\Scripts\pio.exe run -d embedded -e esp32cam_stream -t upload --upload-port COM8 --to run the livestream

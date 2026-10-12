@@ -1,0 +1,31 @@
+{
+  "image": "data\\interim\\camera_captures\\retry_20261012_002707.png",
+  "shape": [
+    120,
+    160,
+    3
+  ],
+  "brightness": {
+    "mean": 5.6666669845581055,
+    "maximum": 5.666666507720947,
+    "p99_5": 5.666666507720947,
+    "peak_threshold": 32.0,
+    "peak_pixel_count": 0
+  },
+  "brightest_region": null,
+  "fixed_crop": {
+    "left": 20,
+    "right_exclusive": 140,
+    "peak_pixels_inside": 0,
+    "peak_coverage": 0.0
+  },
+  "mean_color_dominance": {
+    "red": 2.0,
+    "green": -4.0,
+    "blue": 2.0
+  },
+  "limitations": [
+    "Brightness and color concentration do not identify the LED semantic label.",
+    "A known-color, adequately exposed capture is required for crop-policy decisions."
+  ]
+}

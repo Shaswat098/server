@@ -1,0 +1,3 @@
+.pio/build/esp32cam_int8/FrameworkArduino/firmware_msc_fat.c.o: \
+ C:/Users/shash/.platformio/packages/framework-arduinoespressif32/cores/esp32/firmware_msc_fat.c \
+ C:/Users/shash/.platformio/packages/framework-arduinoespressif32/cores/esp32/firmware_msc_fat.h

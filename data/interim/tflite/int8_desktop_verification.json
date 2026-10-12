@@ -1,0 +1,50 @@
+{
+  "model": "Candidate B depthwise-separable CNN",
+  "format": "full integer TFLite",
+  "calibration_policy": "train split only",
+  "calibration_samples": 228,
+  "test_samples": 61,
+  "input": {
+    "shape": [
+      1,
+      64,
+      64,
+      3
+    ],
+    "dtype": "<class 'numpy.int8'>",
+    "scale": 0.003921568859368563,
+    "zero_point": -128
+  },
+  "output": {
+    "shape": [
+      1,
+      2
+    ],
+    "dtype": "<class 'numpy.int8'>",
+    "scale": 0.0025411166716367006,
+    "zero_point": -39
+  },
+  "tflite_size_bytes": 9720,
+  "test_metrics": {
+    "accuracy": 0.9672131147540983,
+    "precision_yellow": 0.0,
+    "recall_yellow": 0.0,
+    "confusion_matrix": [
+      [
+        59,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "sample_count": 61,
+    "yellow_count": 2
+  },
+  "max_abs_logit_delta_vs_float32_tflite": 0.001884549856185913,
+  "limitations": [
+    "The test set contains only two yellow crops.",
+    "LED color is a proxy for server status, not proof of server health."
+  ]
+}

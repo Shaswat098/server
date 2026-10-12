@@ -1,0 +1,218 @@
+name: TFLM Library Sync, Test & Publish Pipeline
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Weekly sync on Sundays
+  workflow_dispatch:
+    inputs:
+      custom_version:
+        description: 'Custom version override (e.g. 1.0.1). Leave empty to use auto version (1.YY.WW).'
+        required: false
+        default: ''
+        type: string
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install PlatformIO & Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install platformio
+          sudo apt-get install -y jq
+
+      # --- AUTOMATION 1: Generate Library & Update README/Version ---
+      - name: Clone Upstream TFLM and Generate Library Tree
+        run: |
+          # Clone upstream repository
+          git clone https://github.com/tensorflow/tflite-micro.git --depth 1
+          cd tflite-micro
+          COMMIT_HASH=$(git rev-parse HEAD)
+          SHORT_COMMIT=$(git rev-parse --short HEAD)
+          echo "COMMIT_HASH=$COMMIT_HASH" >> $GITHUB_ENV
+          echo "SHORT_COMMIT=$SHORT_COMMIT" >> $GITHUB_ENV
+
+          # Generate TFLM tree into temp directory
+          echo "Generating Project structure ..."
+          python3 tensorflow/lite/micro/tools/project_generation/create_tflm_tree.py ../tmp
+          echo "Generated Project structure"
+
+          cd ..
+          rm -rf tflite-micro
+
+          # Preserve custom examples and swap src
+          cp -rf src/examples tmp/ 2>/dev/null || true
+          rm -rf src
+          mv tmp src
+          echo "Cleaned up Project"
+
+
+      - name: Update Version Tag & README
+        run: |
+          # Check if a custom version was supplied in the manual dispatch UI
+          MANUAL_VERSION="${{ inputs.custom_version }}"
+          if [ -n "$MANUAL_VERSION" ]; then
+            VERSION="$MANUAL_VERSION"
+          else
+            VERSION="1.$(date +'%y.%V')"
+          fi
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          export VERSION
+
+          # 1. Update library.json version
+          jq --arg v "$VERSION" '.version = $v' library.json > library.json.tmp && mv library.json.tmp library.json
+          echo Updated library.json
+
+          # 2. Update README.md and version_history.md
+          python3 - << 'EOF'
+          import os, re
+
+          commit_hash = os.environ.get('COMMIT_HASH', '')
+          version = os.environ.get('VERSION', '')
+          commit_url = f"https://github.com/tensorflow/tflite-micro/commit/{commit_hash}"
+
+          # --- Update README file(s) ---
+          readme_files = [f for f in os.listdir('.') if f.lower() == 'readme.md']
+          url_pattern = r"https://github\.com/tensorflow/tflite-micro/commit/[a-fA-F0-9]+"
+
+          for readme_path in readme_files:
+              with open(readme_path, 'r') as f:
+                  content = f.read()
+
+              new_content = re.sub(url_pattern, commit_url, content)
+
+              with open(readme_path, 'w') as f:
+                  f.write(new_content)
+              print(f"Updated {readme_path}")
+
+          # --- Update version_history.md ---
+          history_path = 'version_history.md'
+          if os.path.exists(history_path):
+              with open(history_path, 'r') as f:
+                  history_content = f.read()
+
+              new_row = f"|{version}|{commit_url}|\n"
+              if history_content and not history_content.endswith('\n'):
+                  new_row = f"\n{new_row}"
+
+              with open(history_path, 'a') as f:
+                  f.write(new_row)
+              print("Updated version_history.md")
+          EOF
+
+
+      - name: Create Commit to staging-release branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src library.json version_history.md
+          git add -u
+          git commit -m "chore: sync TFLM $SHORT_COMMIT (v$VERSION)" || echo "No changes to commit"
+          git push origin HEAD:refs/heads/staging-release --force
+
+      # --- AUTOMATION 2: Build & Test Environment ---
+      - name: Execute Build Tests in Separate Root Folder
+        run: |
+          REPO_DIR="${{ github.workspace }}"
+          TEST_DIR="${{ github.workspace }}/../pio_test_env"
+
+          # 1. Setup isolated test environment root
+          mkdir -p "$TEST_DIR/src"
+          cat << EOF > "$TEST_DIR/platformio.ini"
+          [env:m5stack-atoms3]
+          platform = espressif32
+          board = m5stack-atoms3
+          framework = arduino
+          lib_deps =
+              file://$REPO_DIR
+          EOF
+
+          cd "$TEST_DIR"
+
+          # 2. Force PlatformIO to fetch toolchains and install lib_deps into .pio/libdeps/
+          pio pkg install
+
+          LIB_EXAMPLES_DIR=".pio/libdeps/m5stack-atoms3/tflite-micro/examples"
+
+          # Test 1: hello_world
+          echo "=== Test 1: hello_world ==="
+          rm -rf src/*
+          cp -r "$LIB_EXAMPLES_DIR/hello_world/"* src/
+          [ -f src/hello_world.cc ] && mv src/hello_world.cc src/main.cpp
+          pio run -e m5stack-atoms3
+          pio run -t clean -e m5stack-atoms3
+
+          # Test 2: micro_speech
+          echo "=== Test 2: micro_speech ==="
+          rm -rf src/*
+          cp -r "$LIB_EXAMPLES_DIR/micro_speech/"* src/
+          [ -f src/micro_speech.cc ] && mv src/micro_speech.cc src/main.cpp
+          pio run -e m5stack-atoms3
+          pio run -t clean -e m5stack-atoms3
+
+          # Test 3: person_detection
+          echo "=== Test 3: person_detection ==="
+          rm -rf src/*
+          cp -r "$LIB_EXAMPLES_DIR/person_detection/"* src/
+          [ -f src/person_detection.cc ] && mv src/person_detection.cc src/main.cpp
+          pio run -e m5stack-atoms3
+          pio run -t clean -e m5stack-atoms3
+
+      - name: Package Library Archive
+        run: |
+          pio pkg pack
+
+
+  # --- AUTOMATION 3: Manual Approval & Publish Gate ---
+  publish:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    environment: release-approval # Pauses execution and requests reviewer approval
+    steps:
+      - name: Checkout Staging Branch
+        uses: actions/checkout@v4
+        with:
+          ref: staging-release
+          fetch-depth: 0
+
+      - name: Set up Python & PlatformIO
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install PlatformIO
+        run: pip install platformio
+
+      - name: Push Commit, Release & Publish
+        env:
+          PLATFORMIO_AUTH_TOKEN: ${{ secrets.PLATFORMIO_AUTH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION=$(jq -r '.version' library.json)
+
+          # 1. Push local commit to main branch & tag
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b main || git checkout main
+          git pull origin staging-release
+          git tag -f "v$VERSION"
+          git push origin main --tags -f
+
+          # 2. Create GitHub Release
+          gh release create "v$VERSION" \
+            --title "v$VERSION" \
+            --notes "Automated build release synced with upstream TFLM." \
+            || echo "Release already exists"
+
+          # 3. Publish package to PlatformIO Registry
+          pio pkg publish --non-interactive

@@ -1,0 +1,6126 @@
+{
+  "seed": 20260914,
+  "raw_root": "data\\raw\\led_lights_coco",
+  "output_root": "data\\processed\\led_crops",
+  "crop_policy": {
+    "padding_fraction": 0.25,
+    "size": 64
+  },
+  "binary_label_mapping": {
+    "green": 0,
+    "yellow": 1
+  },
+  "excluded_labels": [
+    "blue"
+  ],
+  "source_image_counts": {
+    "train": 63,
+    "valid": 14,
+    "test": 14
+  },
+  "source_images_excluded_blue_only": 13,
+  "records": [
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_a204b829b4e2.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "002_jpg.rf.d0ccac080b5a95e0b60015f970ed0093.jpg",
+      "source_image_id": 1,
+      "annotation_id": 4,
+      "bbox": [
+        52.09,
+        224,
+        13.84,
+        14.31
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_1c1f93ce36b1.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "004_jpg.rf.c6c0917339d59eabbbd15bdd41ef2412.jpg",
+      "source_image_id": 52,
+      "annotation_id": 178,
+      "bbox": [
+        371.5,
+        197,
+        12.29,
+        13.73
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_087f9b2e59aa.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "004_jpg.rf.c6c0917339d59eabbbd15bdd41ef2412.jpg",
+      "source_image_id": 52,
+      "annotation_id": 179,
+      "bbox": [
+        371,
+        362,
+        11.29,
+        12.86
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_bea20b7c31d1.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "004_jpg.rf.c6c0917339d59eabbbd15bdd41ef2412.jpg",
+      "source_image_id": 52,
+      "annotation_id": 180,
+      "bbox": [
+        389,
+        76.01,
+        13.3,
+        15.13
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_97fd1af0c2fc.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "004_jpg.rf.c6c0917339d59eabbbd15bdd41ef2412.jpg",
+      "source_image_id": 52,
+      "annotation_id": 181,
+      "bbox": [
+        388.01,
+        364,
+        10.79,
+        12.36
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_ed1cbccfba4d.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "004_jpg.rf.c6c0917339d59eabbbd15bdd41ef2412.jpg",
+      "source_image_id": 52,
+      "annotation_id": 182,
+      "bbox": [
+        370,
+        466.5,
+        12.79,
+        12.44
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_f31202162c12.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "005_jpg.rf.841ad7284f6ee34c666da0199f01330c.jpg",
+      "source_image_id": 2,
+      "annotation_id": 5,
+      "bbox": [
+        301.54,
+        199.9,
+        14.17,
+        14.16
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_ca9d287735ea.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "005_jpg.rf.841ad7284f6ee34c666da0199f01330c.jpg",
+      "source_image_id": 2,
+      "annotation_id": 6,
+      "bbox": [
+        302.27,
+        73,
+        12.44,
+        12.82
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_1bd4f6f0c75b.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "005_jpg.rf.841ad7284f6ee34c666da0199f01330c.jpg",
+      "source_image_id": 2,
+      "annotation_id": 7,
+      "bbox": [
+        322.5,
+        71,
+        12.59,
+        14.69
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_45c7a281b836.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "006_jpg.rf.a57253c2960d753397bc14c0fa7e3cd7.jpg",
+      "source_image_id": 5,
+      "annotation_id": 13,
+      "bbox": [
+        408.09,
+        68.22,
+        12.89,
+        13.55
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_2dbd5f44b9b2.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "006_jpg.rf.a57253c2960d753397bc14c0fa7e3cd7.jpg",
+      "source_image_id": 5,
+      "annotation_id": 14,
+      "bbox": [
+        426.68,
+        68.23,
+        11.58,
+        12.78
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_ae2b387c9ea1.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "006_jpg.rf.a57253c2960d753397bc14c0fa7e3cd7.jpg",
+      "source_image_id": 5,
+      "annotation_id": 15,
+      "bbox": [
+        409.83,
+        196.78,
+        11.48,
+        11.94
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_43a9bfcd2b86.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "006_jpg.rf.a57253c2960d753397bc14c0fa7e3cd7.jpg",
+      "source_image_id": 5,
+      "annotation_id": 16,
+      "bbox": [
+        177.14,
+        116.59,
+        11.42,
+        13.38
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_41e4edc1825e.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "006_jpg.rf.a57253c2960d753397bc14c0fa7e3cd7.jpg",
+      "source_image_id": 5,
+      "annotation_id": 17,
+      "bbox": [
+        177.38,
+        128.44,
+        11.9,
+        12.17
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_2c53032c8175.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "006_jpg.rf.a57253c2960d753397bc14c0fa7e3cd7.jpg",
+      "source_image_id": 5,
+      "annotation_id": 18,
+      "bbox": [
+        204.23,
+        133.85,
+        9.59,
+        12.05
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_5e846340537a.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "008_jpg.rf.c3f8aaaff8a7eedb00878d740db75f82.jpg",
+      "source_image_id": 72,
+      "annotation_id": 260,
+      "bbox": [
+        158,
+        106.01,
+        11.17,
+        12.65
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_8ea580a50378.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "008_jpg.rf.c3f8aaaff8a7eedb00878d740db75f82.jpg",
+      "source_image_id": 72,
+      "annotation_id": 261,
+      "bbox": [
+        194,
+        105.01,
+        9.68,
+        12.65
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_0a780261296a.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "009_jpg.rf.4fa2d63aafc72ea62e85b5f63847b207.jpg",
+      "source_image_id": 91,
+      "annotation_id": 347,
+      "bbox": [
+        390.5,
+        103.01,
+        13.3,
+        11.65
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_b9f9bff7f53f.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "009_jpg.rf.4fa2d63aafc72ea62e85b5f63847b207.jpg",
+      "source_image_id": 91,
+      "annotation_id": 348,
+      "bbox": [
+        405.5,
+        102.51,
+        15.31,
+        11.15
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_1d94b54a663b.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "009_jpg.rf.4fa2d63aafc72ea62e85b5f63847b207.jpg",
+      "source_image_id": 91,
+      "annotation_id": 349,
+      "bbox": [
+        324.76,
+        324.64,
+        12.26,
+        12.33
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_b9433ae87b4f.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "009_jpg.rf.4fa2d63aafc72ea62e85b5f63847b207.jpg",
+      "source_image_id": 91,
+      "annotation_id": 350,
+      "bbox": [
+        342.76,
+        324.14,
+        12.77,
+        11.32
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_585b8a3244d6.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "011_jpg.rf.e00eb289838b284d8a0980617eae2f46.jpg",
+      "source_image_id": 29,
+      "annotation_id": 110,
+      "bbox": [
+        290.33,
+        241,
+        8.49,
+        9.51
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_afcf46303d73.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "011_jpg.rf.e00eb289838b284d8a0980617eae2f46.jpg",
+      "source_image_id": 29,
+      "annotation_id": 111,
+      "bbox": [
+        324,
+        240,
+        9.51,
+        8.84
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_1338b3ff2ebb.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "015_jpg.rf.b776691f90b2aff634ab88baf838f8f7.jpg",
+      "source_image_id": 64,
+      "annotation_id": 226,
+      "bbox": [
+        197,
+        168.19,
+        10.19,
+        16.2
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_1ab53e69b349.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "015_jpg.rf.b776691f90b2aff634ab88baf838f8f7.jpg",
+      "source_image_id": 64,
+      "annotation_id": 227,
+      "bbox": [
+        199.21,
+        345,
+        10.17,
+        17.93
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_320cbb098e0a.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "017_jpg.rf.a2b228df149c8be0c82221385779ae83.jpg",
+      "source_image_id": 83,
+      "annotation_id": 315,
+      "bbox": [
+        351.66,
+        442.99,
+        12.95,
+        13.77
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_aa2e3bc427f9.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "017_jpg.rf.a2b228df149c8be0c82221385779ae83.jpg",
+      "source_image_id": 83,
+      "annotation_id": 316,
+      "bbox": [
+        347.33,
+        299.33,
+        13.65,
+        14.35
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_abda038d100c.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "018_jpg.rf.07fdc274f7ac0986599dab1fa94f9df8.jpg",
+      "source_image_id": 85,
+      "annotation_id": 319,
+      "bbox": [
+        344.16,
+        137,
+        13.55,
+        16.04
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_3fd0a1070bd1.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "018_jpg.rf.07fdc274f7ac0986599dab1fa94f9df8.jpg",
+      "source_image_id": 85,
+      "annotation_id": 320,
+      "bbox": [
+        341,
+        271,
+        13.27,
+        15.79
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_1b67618b960e.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "019_jpg.rf.68795bd2fbf1bdec3207406aa62cc556.jpg",
+      "source_image_id": 75,
+      "annotation_id": 275,
+      "bbox": [
+        116,
+        128.01,
+        12.64,
+        11.67
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_2b23876071c9.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "019_jpg.rf.68795bd2fbf1bdec3207406aa62cc556.jpg",
+      "source_image_id": 75,
+      "annotation_id": 276,
+      "bbox": [
+        26.01,
+        173,
+        10.59,
+        12.21
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_d246791daf6f.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "019_jpg.rf.68795bd2fbf1bdec3207406aa62cc556.jpg",
+      "source_image_id": 75,
+      "annotation_id": 277,
+      "bbox": [
+        34.5,
+        300.51,
+        12.1,
+        14.81
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_6cf451bedaa7.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "019_jpg.rf.68795bd2fbf1bdec3207406aa62cc556.jpg",
+      "source_image_id": 75,
+      "annotation_id": 278,
+      "bbox": [
+        293.77,
+        169.13,
+        12.24,
+        13.2
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_a5b4181d4870.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "019_jpg.rf.68795bd2fbf1bdec3207406aa62cc556.jpg",
+      "source_image_id": 75,
+      "annotation_id": 279,
+      "bbox": [
+        124.26,
+        257.65,
+        12.25,
+        13.63
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_29f0e04bb244.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "019_jpg.rf.68795bd2fbf1bdec3207406aa62cc556.jpg",
+      "source_image_id": 75,
+      "annotation_id": 280,
+      "bbox": [
+        191.44,
+        122.02,
+        8.15,
+        11.44
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\yellow\\yellow_6658bb789127.jpg",
+      "split": "train",
+      "label": "yellow",
+      "class_index": 1,
+      "source_split": "train",
+      "source_file": "019_jpg.rf.68795bd2fbf1bdec3207406aa62cc556.jpg",
+      "source_image_id": 75,
+      "annotation_id": 281,
+      "bbox": [
+        251.36,
+        233.45,
+        14.42,
+        14.82
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_2570f51c39e7.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "019_jpg.rf.68795bd2fbf1bdec3207406aa62cc556.jpg",
+      "source_image_id": 75,
+      "annotation_id": 282,
+      "bbox": [
+        246.61,
+        105.22,
+        10.04,
+        9.96
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_99bc11577996.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "021_jpg.rf.f36747bbf05e8dd0c7407c43f3259fbf.jpg",
+      "source_image_id": 13,
+      "annotation_id": 40,
+      "bbox": [
+        316.41,
+        7.49,
+        14.26,
+        12.24
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_0f02a3e54518.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "021_jpg.rf.f36747bbf05e8dd0c7407c43f3259fbf.jpg",
+      "source_image_id": 13,
+      "annotation_id": 41,
+      "bbox": [
+        73.17,
+        116.41,
+        9.46,
+        10.99
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_5ebae36e1ccb.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "021_jpg.rf.f36747bbf05e8dd0c7407c43f3259fbf.jpg",
+      "source_image_id": 13,
+      "annotation_id": 42,
+      "bbox": [
+        61.43,
+        117.14,
+        9.83,
+        10.26
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_f138d762163f.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "021_jpg.rf.f36747bbf05e8dd0c7407c43f3259fbf.jpg",
+      "source_image_id": 13,
+      "annotation_id": 43,
+      "bbox": [
+        22.86,
+        122.85,
+        7.96,
+        9.43
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_d7ca992cb17a.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "021_jpg.rf.f36747bbf05e8dd0c7407c43f3259fbf.jpg",
+      "source_image_id": 13,
+      "annotation_id": 44,
+      "bbox": [
+        49.91,
+        117.86,
+        9.21,
+        9.95
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_641f7e56edac.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "021_jpg.rf.f36747bbf05e8dd0c7407c43f3259fbf.jpg",
+      "source_image_id": 13,
+      "annotation_id": 45,
+      "bbox": [
+        193.93,
+        215,
+        10.56,
+        10.22
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_6e601e468ece.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "021_jpg.rf.f36747bbf05e8dd0c7407c43f3259fbf.jpg",
+      "source_image_id": 13,
+      "annotation_id": 46,
+      "bbox": [
+        241.44,
+        410.96,
+        13.25,
+        10.15
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_ba9f85952647.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "021_jpg.rf.f36747bbf05e8dd0c7407c43f3259fbf.jpg",
+      "source_image_id": 13,
+      "annotation_id": 47,
+      "bbox": [
+        272.77,
+        312.48,
+        12.62,
+        11.03
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_b4b726fbe2e8.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "023_jpg.rf.13fa31f3f80de59e39916d9d4a112f02.jpg",
+      "source_image_id": 71,
+      "annotation_id": 254,
+      "bbox": [
+        181.21,
+        227.56,
+        11.5,
+        11.92
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_71340483a4f7.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "023_jpg.rf.13fa31f3f80de59e39916d9d4a112f02.jpg",
+      "source_image_id": 71,
+      "annotation_id": 255,
+      "bbox": [
+        295.2,
+        243.33,
+        13.76,
+        10.21
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_4a67f7a727a8.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "023_jpg.rf.13fa31f3f80de59e39916d9d4a112f02.jpg",
+      "source_image_id": 71,
+      "annotation_id": 256,
+      "bbox": [
+        7.62,
+        184.24,
+        13.9,
+        11.58
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\yellow\\yellow_2e2af6cd3a2a.jpg",
+      "split": "train",
+      "label": "yellow",
+      "class_index": 1,
+      "source_split": "train",
+      "source_file": "023_jpg.rf.13fa31f3f80de59e39916d9d4a112f02.jpg",
+      "source_image_id": 71,
+      "annotation_id": 257,
+      "bbox": [
+        115.55,
+        140.2,
+        14.18,
+        12.47
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\yellow\\yellow_bbd08d1ef237.jpg",
+      "split": "train",
+      "label": "yellow",
+      "class_index": 1,
+      "source_split": "train",
+      "source_file": "023_jpg.rf.13fa31f3f80de59e39916d9d4a112f02.jpg",
+      "source_image_id": 71,
+      "annotation_id": 258,
+      "bbox": [
+        73.44,
+        343.06,
+        12.89,
+        11.52
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\yellow\\yellow_af7f58956fff.jpg",
+      "split": "train",
+      "label": "yellow",
+      "class_index": 1,
+      "source_split": "train",
+      "source_file": "023_jpg.rf.13fa31f3f80de59e39916d9d4a112f02.jpg",
+      "source_image_id": 71,
+      "annotation_id": 259,
+      "bbox": [
+        79.23,
+        364.52,
+        11.12,
+        12.01
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_288e7c373a3c.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "025_jpg.rf.b4a63de57c92aa0f682a118963625725.jpg",
+      "source_image_id": 90,
+      "annotation_id": 336,
+      "bbox": [
+        171.42,
+        123.05,
+        10.68,
+        10.53
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_bbc144fc1004.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "025_jpg.rf.b4a63de57c92aa0f682a118963625725.jpg",
+      "source_image_id": 90,
+      "annotation_id": 337,
+      "bbox": [
+        174.09,
+        186.13,
+        10.46,
+        12.41
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_da743f23ddbf.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "025_jpg.rf.b4a63de57c92aa0f682a118963625725.jpg",
+      "source_image_id": 90,
+      "annotation_id": 338,
+      "bbox": [
+        316.04,
+        322.3,
+        11.44,
+        12.43
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_9f2c2d929edb.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "025_jpg.rf.b4a63de57c92aa0f682a118963625725.jpg",
+      "source_image_id": 90,
+      "annotation_id": 339,
+      "bbox": [
+        321.22,
+        119.12,
+        14.02,
+        10.88
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_75d9fb8362e2.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "025_jpg.rf.b4a63de57c92aa0f682a118963625725.jpg",
+      "source_image_id": 90,
+      "annotation_id": 340,
+      "bbox": [
+        249.04,
+        313.74,
+        8.62,
+        8.81
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_88d7962d937b.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "025_jpg.rf.b4a63de57c92aa0f682a118963625725.jpg",
+      "source_image_id": 90,
+      "annotation_id": 341,
+      "bbox": [
+        315.7,
+        258.41,
+        12.59,
+        11.03
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_79fb8f372f9c.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "025_jpg.rf.b4a63de57c92aa0f682a118963625725.jpg",
+      "source_image_id": 90,
+      "annotation_id": 342,
+      "bbox": [
+        510.3,
+        172.39,
+        23.35,
+        15.75
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_3edb3aa9a101.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "025_jpg.rf.b4a63de57c92aa0f682a118963625725.jpg",
+      "source_image_id": 90,
+      "annotation_id": 343,
+      "bbox": [
+        244.94,
+        118.57,
+        8.85,
+        8.83
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_1c1d19229be3.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "025_jpg.rf.b4a63de57c92aa0f682a118963625725.jpg",
+      "source_image_id": 90,
+      "annotation_id": 344,
+      "bbox": [
+        340.4,
+        118.77,
+        12.34,
+        10.65
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_367ede533e31.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "025_jpg.rf.b4a63de57c92aa0f682a118963625725.jpg",
+      "source_image_id": 90,
+      "annotation_id": 345,
+      "bbox": [
+        246.4,
+        186.76,
+        8.54,
+        8.57
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_071572d0dbc7.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "025_jpg.rf.b4a63de57c92aa0f682a118963625725.jpg",
+      "source_image_id": 90,
+      "annotation_id": 346,
+      "bbox": [
+        178.01,
+        250.78,
+        8.95,
+        8.48
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_201ddde90e69.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "026_jpg.rf.18ea24a6404901aa31035b15cb46b1df.jpg",
+      "source_image_id": 9,
+      "annotation_id": 34,
+      "bbox": [
+        198.51,
+        161,
+        20.19,
+        22.2
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_42ea771105d1.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "036_jpg.rf.121d8d34288c3ae5b3d6f27529b935ac.jpg",
+      "source_image_id": 41,
+      "annotation_id": 145,
+      "bbox": [
+        318,
+        206.01,
+        11.76,
+        12.38
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_a6641dc86b02.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "036_jpg.rf.121d8d34288c3ae5b3d6f27529b935ac.jpg",
+      "source_image_id": 41,
+      "annotation_id": 146,
+      "bbox": [
+        318.51,
+        221.05,
+        12.73,
+        13.73
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_619eef68776b.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "037_jpg.rf.482b75bf24ad476749c66f075ec17619.jpg",
+      "source_image_id": 8,
+      "annotation_id": 30,
+      "bbox": [
+        123.34,
+        104.01,
+        8.73,
+        8.73
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_d1f618e2a946.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "037_jpg.rf.482b75bf24ad476749c66f075ec17619.jpg",
+      "source_image_id": 8,
+      "annotation_id": 31,
+      "bbox": [
+        123.33,
+        114,
+        9.06,
+        8.41
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_0e552e92fcfe.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "037_jpg.rf.482b75bf24ad476749c66f075ec17619.jpg",
+      "source_image_id": 8,
+      "annotation_id": 32,
+      "bbox": [
+        124.33,
+        121.34,
+        9.14,
+        8.77
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_929f8394303d.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "037_jpg.rf.482b75bf24ad476749c66f075ec17619.jpg",
+      "source_image_id": 8,
+      "annotation_id": 33,
+      "bbox": [
+        135.34,
+        269.33,
+        8.48,
+        8.18
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\yellow\\yellow_434a77dccec9.jpg",
+      "split": "train",
+      "label": "yellow",
+      "class_index": 1,
+      "source_split": "train",
+      "source_file": "038_jpg.rf.8d63b4bb757d4290e8f907fbfe819cd6.jpg",
+      "source_image_id": 15,
+      "annotation_id": 53,
+      "bbox": [
+        184.61,
+        132.7,
+        9.35,
+        9.73
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_8d562f6c5b9e.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "040_jpg.rf.da194e69ab030d65bbfcc78e69cf42ba.jpg",
+      "source_image_id": 30,
+      "annotation_id": 112,
+      "bbox": [
+        348.01,
+        81.01,
+        13.87,
+        14.23
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_2a0b9d0407e8.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "040_jpg.rf.da194e69ab030d65bbfcc78e69cf42ba.jpg",
+      "source_image_id": 30,
+      "annotation_id": 113,
+      "bbox": [
+        348.28,
+        196.9,
+        11.87,
+        12.69
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_31212c37b1d3.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "040_jpg.rf.da194e69ab030d65bbfcc78e69cf42ba.jpg",
+      "source_image_id": 30,
+      "annotation_id": 114,
+      "bbox": [
+        347.51,
+        458.01,
+        11.77,
+        12.43
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_30950bc3dd95.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "040_jpg.rf.da194e69ab030d65bbfcc78e69cf42ba.jpg",
+      "source_image_id": 30,
+      "annotation_id": 115,
+      "bbox": [
+        347.37,
+        356.91,
+        13.37,
+        14.45
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_8cf2e22d8cef.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "043_jpg.rf.cc09a61d8e4e709a1d5cab4e6e25d8b0.jpg",
+      "source_image_id": 50,
+      "annotation_id": 173,
+      "bbox": [
+        349.01,
+        96,
+        13.18,
+        11.46
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_5b840037470e.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "044_jpg.rf.93c34478207ee2dc2bc973906ad1e4a6.jpg",
+      "source_image_id": 86,
+      "annotation_id": 321,
+      "bbox": [
+        336,
+        96.69,
+        11.32,
+        11.65
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_91060efb3264.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "044_jpg.rf.93c34478207ee2dc2bc973906ad1e4a6.jpg",
+      "source_image_id": 86,
+      "annotation_id": 322,
+      "bbox": [
+        353,
+        97.01,
+        10.52,
+        11.89
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_8da3361953bf.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "044_jpg.rf.93c34478207ee2dc2bc973906ad1e4a6.jpg",
+      "source_image_id": 86,
+      "annotation_id": 323,
+      "bbox": [
+        369.38,
+        96.68,
+        11.34,
+        11.84
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_6358b81d1854.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "045_jpg.rf.6cadcaa35ae7300f04e2f6e2c5ce3945.jpg",
+      "source_image_id": 40,
+      "annotation_id": 141,
+      "bbox": [
+        302.81,
+        131.01,
+        16.94,
+        18.37
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_b26cedaeb6d4.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "045_jpg.rf.6cadcaa35ae7300f04e2f6e2c5ce3945.jpg",
+      "source_image_id": 40,
+      "annotation_id": 142,
+      "bbox": [
+        306.01,
+        287.5,
+        13.25,
+        14.67
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_e0f13195ac72.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "045_jpg.rf.6cadcaa35ae7300f04e2f6e2c5ce3945.jpg",
+      "source_image_id": 40,
+      "annotation_id": 143,
+      "bbox": [
+        307.27,
+        427.73,
+        14.48,
+        14.51
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_5ec82189b2d8.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "045_jpg.rf.6cadcaa35ae7300f04e2f6e2c5ce3945.jpg",
+      "source_image_id": 40,
+      "annotation_id": 144,
+      "bbox": [
+        313.01,
+        302,
+        8.75,
+        11.31
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_3491f2e92fd2.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "046_jpg.rf.b212d84eb07537f2456cb3bf4b4c7fc4.jpg",
+      "source_image_id": 81,
+      "annotation_id": 305,
+      "bbox": [
+        301.53,
+        128.25,
+        15.62,
+        14.69
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_741f02dc8f6d.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "046_jpg.rf.b212d84eb07537f2456cb3bf4b4c7fc4.jpg",
+      "source_image_id": 81,
+      "annotation_id": 306,
+      "bbox": [
+        304.45,
+        306.66,
+        13.21,
+        13.27
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_0bc186b4c8d5.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "046_jpg.rf.b212d84eb07537f2456cb3bf4b4c7fc4.jpg",
+      "source_image_id": 81,
+      "annotation_id": 307,
+      "bbox": [
+        299.5,
+        453.01,
+        14.25,
+        13.93
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_e75e7aeec319.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "046_jpg.rf.b212d84eb07537f2456cb3bf4b4c7fc4.jpg",
+      "source_image_id": 81,
+      "annotation_id": 308,
+      "bbox": [
+        303.54,
+        469,
+        16.52,
+        11
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_438856bb8f0e.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "046_jpg.rf.b212d84eb07537f2456cb3bf4b4c7fc4.jpg",
+      "source_image_id": 81,
+      "annotation_id": 309,
+      "bbox": [
+        297,
+        110.41,
+        14.75,
+        15.16
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_7e1717a6404b.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "046_jpg.rf.b212d84eb07537f2456cb3bf4b4c7fc4.jpg",
+      "source_image_id": 81,
+      "annotation_id": 310,
+      "bbox": [
+        297.45,
+        289,
+        14.71,
+        16.91
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_4a00e6160394.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "047_jpg.rf.056a5d7bf5f8b28afc24f230c4ba20bf.jpg",
+      "source_image_id": 51,
+      "annotation_id": 174,
+      "bbox": [
+        218.5,
+        317,
+        18.2,
+        22.83
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_0bcf5824cd17.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "047_jpg.rf.056a5d7bf5f8b28afc24f230c4ba20bf.jpg",
+      "source_image_id": 51,
+      "annotation_id": 175,
+      "bbox": [
+        215,
+        109.5,
+        16.7,
+        20.66
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_fc1b4816b541.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "047_jpg.rf.056a5d7bf5f8b28afc24f230c4ba20bf.jpg",
+      "source_image_id": 51,
+      "annotation_id": 176,
+      "bbox": [
+        403.72,
+        86.99,
+        12.44,
+        14.21
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_8130b437716c.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "047_jpg.rf.056a5d7bf5f8b28afc24f230c4ba20bf.jpg",
+      "source_image_id": 51,
+      "annotation_id": 177,
+      "bbox": [
+        609.72,
+        70.57,
+        13.06,
+        14.7
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_180a19e1cb1c.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "050_jpg.rf.1e604375048b7cede72ade1da2f02d30.jpg",
+      "source_image_id": 7,
+      "annotation_id": 28,
+      "bbox": [
+        96.01,
+        222,
+        10.63,
+        11.75
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_9ca9db789cf1.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "050_jpg.rf.1e604375048b7cede72ade1da2f02d30.jpg",
+      "source_image_id": 7,
+      "annotation_id": 29,
+      "bbox": [
+        67.01,
+        223,
+        10.11,
+        11.25
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_f4afddcaa1a3.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "052_jpg.rf.3ae846c0b8e2e9ec8623f15a7f1b71e6.jpg",
+      "source_image_id": 82,
+      "annotation_id": 311,
+      "bbox": [
+        360.82,
+        80.83,
+        12.78,
+        12.63
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_7ab282f39249.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "052_jpg.rf.3ae846c0b8e2e9ec8623f15a7f1b71e6.jpg",
+      "source_image_id": 82,
+      "annotation_id": 312,
+      "bbox": [
+        361.01,
+        198.99,
+        13.01,
+        12.7
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_fe54475e6563.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "052_jpg.rf.3ae846c0b8e2e9ec8623f15a7f1b71e6.jpg",
+      "source_image_id": 82,
+      "annotation_id": 313,
+      "bbox": [
+        359.68,
+        360.01,
+        13.51,
+        13.76
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_8d18d7bbce00.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "052_jpg.rf.3ae846c0b8e2e9ec8623f15a7f1b71e6.jpg",
+      "source_image_id": 82,
+      "annotation_id": 314,
+      "bbox": [
+        360.77,
+        462,
+        13.42,
+        14.53
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_45b9a6394228.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "056_jpg.rf.3b273fc138266eed5102396a7f25f219.jpg",
+      "source_image_id": 3,
+      "annotation_id": 8,
+      "bbox": [
+        215,
+        320.01,
+        12.46,
+        10.67
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_2ac2ccea5988.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "056_jpg.rf.3b273fc138266eed5102396a7f25f219.jpg",
+      "source_image_id": 3,
+      "annotation_id": 9,
+      "bbox": [
+        181.65,
+        320.3,
+        8.88,
+        12.08
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_6e6e620664e0.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "056_jpg.rf.3b273fc138266eed5102396a7f25f219.jpg",
+      "source_image_id": 3,
+      "annotation_id": 10,
+      "bbox": [
+        214,
+        145,
+        11.7,
+        12.18
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_4c687b10696a.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "057_jpg.rf.bb39d4e2c00890980351465c6137e457.jpg",
+      "source_image_id": 21,
+      "annotation_id": 72,
+      "bbox": [
+        367.15,
+        277.99,
+        14.54,
+        13.9
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_4763b0a41dbd.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "057_jpg.rf.bb39d4e2c00890980351465c6137e457.jpg",
+      "source_image_id": 21,
+      "annotation_id": 73,
+      "bbox": [
+        387,
+        285,
+        14.8,
+        11.8
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_187c4cda9fdd.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "057_jpg.rf.bb39d4e2c00890980351465c6137e457.jpg",
+      "source_image_id": 21,
+      "annotation_id": 74,
+      "bbox": [
+        139.5,
+        177.01,
+        15.16,
+        16.71
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_397243017b8b.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "057_jpg.rf.bb39d4e2c00890980351465c6137e457.jpg",
+      "source_image_id": 21,
+      "annotation_id": 75,
+      "bbox": [
+        53.5,
+        208.01,
+        15.61,
+        13.73
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_a07014da8f5d.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "058_jpg.rf.c2b5d3a0563a7c960d8002a1c9080786.jpg",
+      "source_image_id": 12,
+      "annotation_id": 38,
+      "bbox": [
+        272.19,
+        256.88,
+        7.59,
+        8.23
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_3ff201d821db.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "058_jpg.rf.c2b5d3a0563a7c960d8002a1c9080786.jpg",
+      "source_image_id": 12,
+      "annotation_id": 39,
+      "bbox": [
+        302.21,
+        257.5,
+        7.84,
+        8.52
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_3ed8e264f1b9.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "061_jpg.rf.c001a78bf5485ab3d799dcbbaf06bfce.jpg",
+      "source_image_id": 36,
+      "annotation_id": 131,
+      "bbox": [
+        122.99,
+        179.01,
+        12.65,
+        13.21
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_385d6176de92.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "061_jpg.rf.c001a78bf5485ab3d799dcbbaf06bfce.jpg",
+      "source_image_id": 36,
+      "annotation_id": 132,
+      "bbox": [
+        157,
+        180.01,
+        12.67,
+        11.71
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_8f1378fa0700.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "062_jpg.rf.0356a2934b01c4d1c2871256cacdc3a2.jpg",
+      "source_image_id": 62,
+      "annotation_id": 221,
+      "bbox": [
+        213.58,
+        122.86,
+        9.05,
+        9.74
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_e31a889cf5f5.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "062_jpg.rf.0356a2934b01c4d1c2871256cacdc3a2.jpg",
+      "source_image_id": 62,
+      "annotation_id": 222,
+      "bbox": [
+        215,
+        148.57,
+        8.7,
+        9.04
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\yellow\\yellow_03408d33ab30.jpg",
+      "split": "train",
+      "label": "yellow",
+      "class_index": 1,
+      "source_split": "train",
+      "source_file": "062_jpg.rf.0356a2934b01c4d1c2871256cacdc3a2.jpg",
+      "source_image_id": 62,
+      "annotation_id": 223,
+      "bbox": [
+        198.58,
+        147.85,
+        10.47,
+        10.11
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_c92c56d9b3d5.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "064_jpg.rf.a553dd41ee2effde2fbf4e5d908b1cf5.jpg",
+      "source_image_id": 39,
+      "annotation_id": 140,
+      "bbox": [
+        313.59,
+        101.01,
+        16.22,
+        14.65
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_0c8f6bca638a.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "067_jpg.rf.9d1cb5d73cdd511a0264363fb725f1a0.jpg",
+      "source_image_id": 46,
+      "annotation_id": 159,
+      "bbox": [
+        458.93,
+        95.72,
+        11.34,
+        12.57
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_d2228654ce43.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "067_jpg.rf.9d1cb5d73cdd511a0264363fb725f1a0.jpg",
+      "source_image_id": 46,
+      "annotation_id": 160,
+      "bbox": [
+        389.29,
+        326.43,
+        9.87,
+        9.54
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_334166f638fd.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "067_jpg.rf.9d1cb5d73cdd511a0264363fb725f1a0.jpg",
+      "source_image_id": 46,
+      "annotation_id": 161,
+      "bbox": [
+        369.64,
+        326.42,
+        9.5,
+        11.33
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_0cedc93792ee.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "071_jpg.rf.389cb769586dcd871e38acbd46538e02.jpg",
+      "source_image_id": 77,
+      "annotation_id": 286,
+      "bbox": [
+        306.56,
+        297.76,
+        12.75,
+        13.81
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_823d2e0e9c3a.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "071_jpg.rf.389cb769586dcd871e38acbd46538e02.jpg",
+      "source_image_id": 77,
+      "annotation_id": 287,
+      "bbox": [
+        308,
+        439.01,
+        10.8,
+        13.27
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_74d5755d42a3.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "071_jpg.rf.389cb769586dcd871e38acbd46538e02.jpg",
+      "source_image_id": 77,
+      "annotation_id": 288,
+      "bbox": [
+        303.65,
+        139.51,
+        13.71,
+        12.23
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_f753fbbdbbda.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "071_jpg.rf.389cb769586dcd871e38acbd46538e02.jpg",
+      "source_image_id": 77,
+      "annotation_id": 289,
+      "bbox": [
+        312.16,
+        157.01,
+        10.01,
+        10.74
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_46edcfec2ef0.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "074_jpg.rf.2d62c89fa30b0494b932b35763713546.jpg",
+      "source_image_id": 76,
+      "annotation_id": 283,
+      "bbox": [
+        159,
+        242,
+        15.17,
+        14.76
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_4cc1bf0650e7.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "074_jpg.rf.2d62c89fa30b0494b932b35763713546.jpg",
+      "source_image_id": 76,
+      "annotation_id": 284,
+      "bbox": [
+        49,
+        242,
+        11.1,
+        13.76
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_5a72a7944d46.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "074_jpg.rf.2d62c89fa30b0494b932b35763713546.jpg",
+      "source_image_id": 76,
+      "annotation_id": 285,
+      "bbox": [
+        11,
+        243.5,
+        15.09,
+        15.26
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_d6052f8c68fb.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "084_jpg.rf.c96fc6dec27feddbf65e969f8bb2a751.jpg",
+      "source_image_id": 87,
+      "annotation_id": 324,
+      "bbox": [
+        464,
+        138,
+        15.84,
+        15.68
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_37bed2eb3c77.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "084_jpg.rf.c96fc6dec27feddbf65e969f8bb2a751.jpg",
+      "source_image_id": 87,
+      "annotation_id": 325,
+      "bbox": [
+        468.36,
+        296.71,
+        14.91,
+        16.59
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_f07d344345bd.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "084_jpg.rf.c96fc6dec27feddbf65e969f8bb2a751.jpg",
+      "source_image_id": 87,
+      "annotation_id": 326,
+      "bbox": [
+        474.29,
+        450.51,
+        15.33,
+        16.29
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_05302aac95c4.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "093_jpg.rf.d559f2bbd7073f6e67dfd67c8f5691bc.jpg",
+      "source_image_id": 67,
+      "annotation_id": 237,
+      "bbox": [
+        157.01,
+        257,
+        12.25,
+        13.61
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_80d2f41499a1.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "093_jpg.rf.d559f2bbd7073f6e67dfd67c8f5691bc.jpg",
+      "source_image_id": 67,
+      "annotation_id": 238,
+      "bbox": [
+        157.76,
+        273.15,
+        12.35,
+        12.61
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_8c4033a3b772.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "093_jpg.rf.d559f2bbd7073f6e67dfd67c8f5691bc.jpg",
+      "source_image_id": 67,
+      "annotation_id": 239,
+      "bbox": [
+        147.41,
+        111.64,
+        12.67,
+        14.83
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_18f2e428c625.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "096_jpg.rf.ff13c19d5cb5dd200a1d2def67752ab6.jpg",
+      "source_image_id": 73,
+      "annotation_id": 262,
+      "bbox": [
+        48.5,
+        126.34,
+        14.6,
+        15.33
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_73dbcf9479b1.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "096_jpg.rf.ff13c19d5cb5dd200a1d2def67752ab6.jpg",
+      "source_image_id": 73,
+      "annotation_id": 263,
+      "bbox": [
+        60,
+        256.01,
+        15.19,
+        16.29
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_06e56e0149b7.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "096_jpg.rf.ff13c19d5cb5dd200a1d2def67752ab6.jpg",
+      "source_image_id": 73,
+      "annotation_id": 264,
+      "bbox": [
+        229.66,
+        168.34,
+        14.28,
+        12.72
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_d564f33a0468.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "096_jpg.rf.ff13c19d5cb5dd200a1d2def67752ab6.jpg",
+      "source_image_id": 73,
+      "annotation_id": 265,
+      "bbox": [
+        189.77,
+        234,
+        13.46,
+        11.81
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_47a6b507b012.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "096_jpg.rf.ff13c19d5cb5dd200a1d2def67752ab6.jpg",
+      "source_image_id": 73,
+      "annotation_id": 266,
+      "bbox": [
+        126.13,
+        123.6,
+        9.56,
+        9.61
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\yellow\\yellow_aab13bad2efa.jpg",
+      "split": "train",
+      "label": "yellow",
+      "class_index": 1,
+      "source_split": "train",
+      "source_file": "096_jpg.rf.ff13c19d5cb5dd200a1d2def67752ab6.jpg",
+      "source_image_id": 73,
+      "annotation_id": 267,
+      "bbox": [
+        181.73,
+        105.39,
+        11.65,
+        11.2
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_1529fe5051d0.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163718_0007_png.rf.a84ce5a6aa045e08c19a54289b5155bb.jpg",
+      "source_image_id": 37,
+      "annotation_id": 133,
+      "bbox": [
+        222.5,
+        93.01,
+        20.21,
+        24.15
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_ba23a6357c75.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163718_0007_png.rf.a84ce5a6aa045e08c19a54289b5155bb.jpg",
+      "source_image_id": 37,
+      "annotation_id": 134,
+      "bbox": [
+        230.5,
+        258,
+        20.21,
+        23.28
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_46f55386005f.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163718_0007_png.rf.a84ce5a6aa045e08c19a54289b5155bb.jpg",
+      "source_image_id": 37,
+      "annotation_id": 135,
+      "bbox": [
+        239,
+        410,
+        19.22,
+        22.9
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_78bcef43dd41.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163718_0007_png.rf.a84ce5a6aa045e08c19a54289b5155bb.jpg",
+      "source_image_id": 37,
+      "annotation_id": 136,
+      "bbox": [
+        264.51,
+        102.5,
+        30.23,
+        22.16
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_2d48f30658cf.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163718_0007_png.rf.a84ce5a6aa045e08c19a54289b5155bb.jpg",
+      "source_image_id": 37,
+      "annotation_id": 137,
+      "bbox": [
+        269,
+        270.5,
+        29.74,
+        20.29
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_d91ff38c7a63.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163718_0007_png.rf.a84ce5a6aa045e08c19a54289b5155bb.jpg",
+      "source_image_id": 37,
+      "annotation_id": 138,
+      "bbox": [
+        275,
+        426.01,
+        27.24,
+        21.41
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_7fb12142522d.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163759_0008_png.rf.08d0cf5416349875c3ff112650b64f7d.jpg",
+      "source_image_id": 22,
+      "annotation_id": 76,
+      "bbox": [
+        200.01,
+        135,
+        21.19,
+        23.68
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_a63fc6c77366.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163759_0008_png.rf.08d0cf5416349875c3ff112650b64f7d.jpg",
+      "source_image_id": 22,
+      "annotation_id": 77,
+      "bbox": [
+        207,
+        285,
+        22.2,
+        20.3
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_af3859592636.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163759_0008_png.rf.08d0cf5416349875c3ff112650b64f7d.jpg",
+      "source_image_id": 22,
+      "annotation_id": 78,
+      "bbox": [
+        218.5,
+        422.51,
+        17.2,
+        19.41
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_2e8e5c954855.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163759_0008_png.rf.08d0cf5416349875c3ff112650b64f7d.jpg",
+      "source_image_id": 22,
+      "annotation_id": 79,
+      "bbox": [
+        248,
+        144.5,
+        23.22,
+        20.19
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_c966c3b5c59b.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163759_0008_png.rf.08d0cf5416349875c3ff112650b64f7d.jpg",
+      "source_image_id": 22,
+      "annotation_id": 80,
+      "bbox": [
+        253,
+        294,
+        28.22,
+        19.81
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_b842d25b3def.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163759_0008_png.rf.08d0cf5416349875c3ff112650b64f7d.jpg",
+      "source_image_id": 22,
+      "annotation_id": 81,
+      "bbox": [
+        257,
+        431,
+        25.73,
+        19.42
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_1582dee62578.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163804_0009_png.rf.a014579b4e9d37d23343bc645d7cfb80.jpg",
+      "source_image_id": 61,
+      "annotation_id": 217,
+      "bbox": [
+        194.01,
+        188,
+        22.69,
+        25.73
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_99bd1f13e8eb.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163804_0009_png.rf.a014579b4e9d37d23343bc645d7cfb80.jpg",
+      "source_image_id": 61,
+      "annotation_id": 218,
+      "bbox": [
+        204.5,
+        356,
+        21.7,
+        24.86
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_9e9d511a176a.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163804_0009_png.rf.a014579b4e9d37d23343bc645d7cfb80.jpg",
+      "source_image_id": 61,
+      "annotation_id": 219,
+      "bbox": [
+        249.5,
+        199.51,
+        30.22,
+        21.23
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_8240c77124a5.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163804_0009_png.rf.a014579b4e9d37d23343bc645d7cfb80.jpg",
+      "source_image_id": 61,
+      "annotation_id": 220,
+      "bbox": [
+        253,
+        368,
+        31.23,
+        20.87
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_8b76d2fa03a3.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163914_0012_png.rf.4174c3bf52131e65c186bccaca8315ef.jpg",
+      "source_image_id": 27,
+      "annotation_id": 105,
+      "bbox": [
+        343.49,
+        106.98,
+        26.37,
+        28.57
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_81e689a31f6e.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163914_0012_png.rf.4174c3bf52131e65c186bccaca8315ef.jpg",
+      "source_image_id": 27,
+      "annotation_id": 106,
+      "bbox": [
+        311.13,
+        109.23,
+        16.35,
+        18.56
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_3cab2da2e0de.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163914_0012_png.rf.4174c3bf52131e65c186bccaca8315ef.jpg",
+      "source_image_id": 27,
+      "annotation_id": 107,
+      "bbox": [
+        312.31,
+        135.01,
+        16.35,
+        17.81
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_0727e5e32e41.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163933_0015_png.rf.ebb9149dedffd8ded26edd2ebd750d89.jpg",
+      "source_image_id": 31,
+      "annotation_id": 116,
+      "bbox": [
+        282.01,
+        164,
+        12.23,
+        18.2
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_4ba7e92c00a2.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163933_0015_png.rf.ebb9149dedffd8ded26edd2ebd750d89.jpg",
+      "source_image_id": 31,
+      "annotation_id": 117,
+      "bbox": [
+        284.01,
+        242.5,
+        11.23,
+        16.76
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_a06de00f6b02.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164022_0016_png.rf.afa378b3c8608871d82726120434f320.jpg",
+      "source_image_id": 42,
+      "annotation_id": 147,
+      "bbox": [
+        217.5,
+        36.99,
+        22.2,
+        21.61
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_1b7304c9cb42.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164022_0016_png.rf.afa378b3c8608871d82726120434f320.jpg",
+      "source_image_id": 42,
+      "annotation_id": 148,
+      "bbox": [
+        232.01,
+        314,
+        16.71,
+        16.82
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_8cfc3cd4de6a.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164050_0018_png.rf.b4c3b1ae9bad35711ec47e5852d810e5.jpg",
+      "source_image_id": 14,
+      "annotation_id": 48,
+      "bbox": [
+        422.5,
+        54.5,
+        21.32,
+        22.62
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_98915081e0cf.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164050_0018_png.rf.b4c3b1ae9bad35711ec47e5852d810e5.jpg",
+      "source_image_id": 14,
+      "annotation_id": 49,
+      "bbox": [
+        420,
+        292.5,
+        17.82,
+        23.31
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_f446810e3fe7.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164050_0018_png.rf.b4c3b1ae9bad35711ec47e5852d810e5.jpg",
+      "source_image_id": 14,
+      "annotation_id": 50,
+      "bbox": [
+        179.5,
+        70,
+        13.18,
+        17.63
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_a6ee1e862bf9.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164050_0018_png.rf.b4c3b1ae9bad35711ec47e5852d810e5.jpg",
+      "source_image_id": 14,
+      "annotation_id": 51,
+      "bbox": [
+        190,
+        316,
+        13.18,
+        15.82
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_b417599d39b1.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164050_0018_png.rf.b4c3b1ae9bad35711ec47e5852d810e5.jpg",
+      "source_image_id": 14,
+      "annotation_id": 52,
+      "bbox": [
+        127.01,
+        70,
+        15.65,
+        14.13
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_e26a74497672.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164133_0020_png.rf.850a6c29e46278131cf32130edd5a39b.jpg",
+      "source_image_id": 17,
+      "annotation_id": 57,
+      "bbox": [
+        214,
+        12.56,
+        16.14,
+        17.47
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_78c76faf4a1e.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164133_0020_png.rf.850a6c29e46278131cf32130edd5a39b.jpg",
+      "source_image_id": 17,
+      "annotation_id": 58,
+      "bbox": [
+        225.77,
+        309.56,
+        18.05,
+        18.21
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_cd7d12276556.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164137_0021_png.rf.bf3ee89d9c18e73de5cd88a9f1230c1a.jpg",
+      "source_image_id": 10,
+      "annotation_id": 35,
+      "bbox": [
+        198.51,
+        140.5,
+        21.69,
+        21.69
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_7ff8cf2c29ee.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164137_0021_png.rf.bf3ee89d9c18e73de5cd88a9f1230c1a.jpg",
+      "source_image_id": 10,
+      "annotation_id": 36,
+      "bbox": [
+        199.01,
+        166,
+        23.19,
+        23.21
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_9d597396f7dc.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164200_0023_png.rf.77225a73ceab18f9dd96733255cf6f3b.jpg",
+      "source_image_id": 59,
+      "annotation_id": 204,
+      "bbox": [
+        335.63,
+        233.12,
+        6.73,
+        7.66
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_63e446aa0bf1.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164200_0023_png.rf.77225a73ceab18f9dd96733255cf6f3b.jpg",
+      "source_image_id": 59,
+      "annotation_id": 205,
+      "bbox": [
+        415,
+        229.38,
+        5.53,
+        6.4
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_70739e7163a9.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164200_0023_png.rf.77225a73ceab18f9dd96733255cf6f3b.jpg",
+      "source_image_id": 59,
+      "annotation_id": 206,
+      "bbox": [
+        416.57,
+        266.25,
+        6.15,
+        6.12
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_36c486525a46.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164200_0023_png.rf.77225a73ceab18f9dd96733255cf6f3b.jpg",
+      "source_image_id": 59,
+      "annotation_id": 207,
+      "bbox": [
+        195,
+        272.81,
+        8.53,
+        8
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_5db3a4789a91.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164200_0023_png.rf.77225a73ceab18f9dd96733255cf6f3b.jpg",
+      "source_image_id": 59,
+      "annotation_id": 208,
+      "bbox": [
+        258.75,
+        270.31,
+        6.06,
+        7.06
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_1551c6719c1c.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164200_0023_png.rf.77225a73ceab18f9dd96733255cf6f3b.jpg",
+      "source_image_id": 59,
+      "annotation_id": 209,
+      "bbox": [
+        258.75,
+        270.31,
+        6.06,
+        7.06
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_9510ba01e742.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164200_0023_png.rf.77225a73ceab18f9dd96733255cf6f3b.jpg",
+      "source_image_id": 59,
+      "annotation_id": 210,
+      "bbox": [
+        290.31,
+        269.38,
+        7.02,
+        7.68
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_5409dd52f4fa.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164200_0023_png.rf.77225a73ceab18f9dd96733255cf6f3b.jpg",
+      "source_image_id": 59,
+      "annotation_id": 211,
+      "bbox": [
+        225.32,
+        272.18,
+        7.61,
+        7.69
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_a1672135ae62.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164259_0025_png.rf.aa9eaba36fabb068f96c59666757cb4b.jpg",
+      "source_image_id": 44,
+      "annotation_id": 151,
+      "bbox": [
+        240,
+        24,
+        20.22,
+        19.59
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_40225fa140fb.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164259_0025_png.rf.aa9eaba36fabb068f96c59666757cb4b.jpg",
+      "source_image_id": 44,
+      "annotation_id": 152,
+      "bbox": [
+        272.51,
+        108,
+        16.23,
+        17.66
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_2b9f017c42a7.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164259_0025_png.rf.aa9eaba36fabb068f96c59666757cb4b.jpg",
+      "source_image_id": 44,
+      "annotation_id": 153,
+      "bbox": [
+        257,
+        384,
+        17.22,
+        17.88
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_9bad898241d2.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164320_0028_png.rf.0f007261ea3917324306bed8ba94d77f.jpg",
+      "source_image_id": 65,
+      "annotation_id": 228,
+      "bbox": [
+        252,
+        60,
+        14.72,
+        14.12
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_d4d673721438.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164320_0028_png.rf.0f007261ea3917324306bed8ba94d77f.jpg",
+      "source_image_id": 65,
+      "annotation_id": 229,
+      "bbox": [
+        276.01,
+        124,
+        13.23,
+        14.17
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_c2142569e596.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164320_0028_png.rf.0f007261ea3917324306bed8ba94d77f.jpg",
+      "source_image_id": 65,
+      "annotation_id": 230,
+      "bbox": [
+        264,
+        339,
+        12.73,
+        14.34
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_5d5ae0c398f1.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164320_0028_png.rf.0f007261ea3917324306bed8ba94d77f.jpg",
+      "source_image_id": 65,
+      "annotation_id": 231,
+      "bbox": [
+        286.16,
+        393.85,
+        12.1,
+        12.93
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_eab3af3df5f9.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164434_0029_png.rf.208da82c0116626d3ae22b784bb74126.jpg",
+      "source_image_id": 93,
+      "annotation_id": 353,
+      "bbox": [
+        381.61,
+        345.45,
+        37.48,
+        37.61
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_bcf87bc8f40f.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164434_0029_png.rf.208da82c0116626d3ae22b784bb74126.jpg",
+      "source_image_id": 93,
+      "annotation_id": 354,
+      "bbox": [
+        230.13,
+        353.54,
+        17.04,
+        17.14
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_f2595fef7b81.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164501_0033_png.rf.3db2e65e2c228fafc095f2a88e066baa.jpg",
+      "source_image_id": 48,
+      "annotation_id": 165,
+      "bbox": [
+        301.95,
+        140.82,
+        32.9,
+        33.35
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_706f30925708.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164501_0033_png.rf.3db2e65e2c228fafc095f2a88e066baa.jpg",
+      "source_image_id": 48,
+      "annotation_id": 166,
+      "bbox": [
+        160.99,
+        152.36,
+        18.14,
+        18.66
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_db1af2cea485.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164553_0034_png.rf.ff4174c2ebac0847d88200e15f463fea.jpg",
+      "source_image_id": 54,
+      "annotation_id": 186,
+      "bbox": [
+        397,
+        308.5,
+        15.8,
+        18.32
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_913e5782df96.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164553_0034_png.rf.ff4174c2ebac0847d88200e15f463fea.jpg",
+      "source_image_id": 54,
+      "annotation_id": 187,
+      "bbox": [
+        396.01,
+        330.01,
+        17.71,
+        16.65
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_6b849d4bc327.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164557_0035_png.rf.313142ca9452691b4f5dfbbe4d106192.jpg",
+      "source_image_id": 32,
+      "annotation_id": 118,
+      "bbox": [
+        364.12,
+        342.01,
+        11.47,
+        10.6
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_ba1a9e698a17.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164557_0035_png.rf.313142ca9452691b4f5dfbbe4d106192.jpg",
+      "source_image_id": 32,
+      "annotation_id": 119,
+      "bbox": [
+        364.72,
+        349.39,
+        11.14,
+        9.71
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_49f5a4ea3d71.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164557_0035_png.rf.313142ca9452691b4f5dfbbe4d106192.jpg",
+      "source_image_id": 32,
+      "annotation_id": 120,
+      "bbox": [
+        364.78,
+        356.73,
+        10.87,
+        9.5
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_2880eb89cfaf.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164619_0037_png.rf.aa52aad731287bfa6c8c4afec3188b18.jpg",
+      "source_image_id": 49,
+      "annotation_id": 167,
+      "bbox": [
+        340,
+        363.33,
+        13,
+        13.54
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_af0f2c414369.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164619_0037_png.rf.aa52aad731287bfa6c8c4afec3188b18.jpg",
+      "source_image_id": 49,
+      "annotation_id": 168,
+      "bbox": [
+        495.45,
+        363.79,
+        13.92,
+        13.84
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_c83ebd16708f.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164619_0037_png.rf.aa52aad731287bfa6c8c4afec3188b18.jpg",
+      "source_image_id": 49,
+      "annotation_id": 169,
+      "bbox": [
+        99.69,
+        296.74,
+        13.32,
+        12.11
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_f804a197c0ce.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164619_0037_png.rf.aa52aad731287bfa6c8c4afec3188b18.jpg",
+      "source_image_id": 49,
+      "annotation_id": 170,
+      "bbox": [
+        126.25,
+        340.84,
+        13.33,
+        12.59
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_9b03c41328f7.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164619_0037_png.rf.aa52aad731287bfa6c8c4afec3188b18.jpg",
+      "source_image_id": 49,
+      "annotation_id": 171,
+      "bbox": [
+        233.86,
+        297.65,
+        12.86,
+        12.49
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_9f97c778acc0.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164619_0037_png.rf.aa52aad731287bfa6c8c4afec3188b18.jpg",
+      "source_image_id": 49,
+      "annotation_id": 172,
+      "bbox": [
+        273.45,
+        279.69,
+        14.31,
+        11.7
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_039b083d5e7d.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164805_0042_png.rf.8ec7501533737527190ba879783ff96d.jpg",
+      "source_image_id": 58,
+      "annotation_id": 200,
+      "bbox": [
+        223.11,
+        219.27,
+        21.11,
+        22.01
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_0c4f60971a85.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164805_0042_png.rf.8ec7501533737527190ba879783ff96d.jpg",
+      "source_image_id": 58,
+      "annotation_id": 201,
+      "bbox": [
+        160.73,
+        213.62,
+        16.31,
+        18.9
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_0bb31902ea15.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164805_0042_png.rf.8ec7501533737527190ba879783ff96d.jpg",
+      "source_image_id": 58,
+      "annotation_id": 202,
+      "bbox": [
+        171,
+        292,
+        16.18,
+        15.56
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_7f58e7967469.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164805_0042_png.rf.8ec7501533737527190ba879783ff96d.jpg",
+      "source_image_id": 58,
+      "annotation_id": 203,
+      "bbox": [
+        254,
+        293,
+        15.72,
+        15.8
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_c86f4569d44b.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164810_0043_png.rf.1976188c158f9f95d47bcddf449781ee.jpg",
+      "source_image_id": 35,
+      "annotation_id": 127,
+      "bbox": [
+        260.33,
+        204.17,
+        16.48,
+        19.15
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_d8c172fdb819.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164810_0043_png.rf.1976188c158f9f95d47bcddf449781ee.jpg",
+      "source_image_id": 35,
+      "annotation_id": 128,
+      "bbox": [
+        216.66,
+        198,
+        12.82,
+        12.82
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_045d496711d9.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164810_0043_png.rf.1976188c158f9f95d47bcddf449781ee.jpg",
+      "source_image_id": 35,
+      "annotation_id": 129,
+      "bbox": [
+        221,
+        261.34,
+        11.81,
+        12.54
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_d05e2e924ddc.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164810_0043_png.rf.1976188c158f9f95d47bcddf449781ee.jpg",
+      "source_image_id": 35,
+      "annotation_id": 130,
+      "bbox": [
+        282,
+        267.33,
+        11.82,
+        12.88
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_7f5fddb4bae6.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164902_0046_png.rf.f076338e2e99dd0c26e9d3a751048918.jpg",
+      "source_image_id": 38,
+      "annotation_id": 139,
+      "bbox": [
+        280.83,
+        120.01,
+        22.96,
+        24.45
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_2723c61caaec.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "007_jpg.rf.c4cdda97fb2f4b17bca991bd17fc5bb6.jpg",
+      "source_image_id": 9,
+      "annotation_id": 34,
+      "bbox": [
+        275.01,
+        317.31,
+        10.73,
+        12.32
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_4720000cd3da.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "007_jpg.rf.c4cdda97fb2f4b17bca991bd17fc5bb6.jpg",
+      "source_image_id": 9,
+      "annotation_id": 35,
+      "bbox": [
+        293.12,
+        317,
+        9.24,
+        11.82
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_a8f808aac8d0.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "007_jpg.rf.c4cdda97fb2f4b17bca991bd17fc5bb6.jpg",
+      "source_image_id": 9,
+      "annotation_id": 36,
+      "bbox": [
+        309,
+        316.94,
+        10.25,
+        11.32
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_08f9d9b0a0f3.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "032_jpg.rf.c2b5cb6217c3ce0c0e5c68166a936c8d.jpg",
+      "source_image_id": 3,
+      "annotation_id": 20,
+      "bbox": [
+        383.75,
+        136.62,
+        13.05,
+        15.68
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_3b976185dfd8.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "032_jpg.rf.c2b5cb6217c3ce0c0e5c68166a936c8d.jpg",
+      "source_image_id": 3,
+      "annotation_id": 21,
+      "bbox": [
+        381.01,
+        269,
+        12.79,
+        14.78
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_571ec3665583.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "032_jpg.rf.c2b5cb6217c3ce0c0e5c68166a936c8d.jpg",
+      "source_image_id": 3,
+      "annotation_id": 22,
+      "bbox": [
+        380.01,
+        0,
+        17.81,
+        9.68
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_e44030756454.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "094_jpg.rf.883980aed5005cfee7c57b36ec89a2fa.jpg",
+      "source_image_id": 0,
+      "annotation_id": 1,
+      "bbox": [
+        375.84,
+        70.01,
+        12.45,
+        13.29
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_ce3ab72abcc7.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "094_jpg.rf.883980aed5005cfee7c57b36ec89a2fa.jpg",
+      "source_image_id": 0,
+      "annotation_id": 2,
+      "bbox": [
+        380.45,
+        195.44,
+        10.79,
+        11.22
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_f538a69a998a.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "094_jpg.rf.883980aed5005cfee7c57b36ec89a2fa.jpg",
+      "source_image_id": 0,
+      "annotation_id": 3,
+      "bbox": [
+        266.99,
+        68.99,
+        12.42,
+        13.32
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_a3430a47470a.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "094_jpg.rf.883980aed5005cfee7c57b36ec89a2fa.jpg",
+      "source_image_id": 0,
+      "annotation_id": 4,
+      "bbox": [
+        167.67,
+        92.67,
+        8.51,
+        9.41
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_9cf5c987b139.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "094_jpg.rf.883980aed5005cfee7c57b36ec89a2fa.jpg",
+      "source_image_id": 0,
+      "annotation_id": 5,
+      "bbox": [
+        160.35,
+        134.7,
+        9.48,
+        10.99
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_ef740790e5ab.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "094_jpg.rf.883980aed5005cfee7c57b36ec89a2fa.jpg",
+      "source_image_id": 0,
+      "annotation_id": 6,
+      "bbox": [
+        212.04,
+        117.76,
+        9.12,
+        9.98
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_ed540c07648e.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "094_jpg.rf.883980aed5005cfee7c57b36ec89a2fa.jpg",
+      "source_image_id": 0,
+      "annotation_id": 7,
+      "bbox": [
+        173.01,
+        128.67,
+        9.51,
+        10.44
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_351d61ec856e.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "094_jpg.rf.883980aed5005cfee7c57b36ec89a2fa.jpg",
+      "source_image_id": 0,
+      "annotation_id": 8,
+      "bbox": [
+        146.67,
+        117.31,
+        9.17,
+        10.77
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_5673a70d4773.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "094_jpg.rf.883980aed5005cfee7c57b36ec89a2fa.jpg",
+      "source_image_id": 0,
+      "annotation_id": 9,
+      "bbox": [
+        146.69,
+        128.75,
+        9.78,
+        11.6
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_c9d110f50952.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "094_jpg.rf.883980aed5005cfee7c57b36ec89a2fa.jpg",
+      "source_image_id": 0,
+      "annotation_id": 10,
+      "bbox": [
+        160.14,
+        122.73,
+        10.39,
+        13.1
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_45905554acd5.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "094_jpg.rf.883980aed5005cfee7c57b36ec89a2fa.jpg",
+      "source_image_id": 0,
+      "annotation_id": 11,
+      "bbox": [
+        395.5,
+        70,
+        11.8,
+        12.12
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_add57118d6a9.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "image_20251121_163920_0013_png.rf.835915f0c5903bc30db439dad1fd4b44.jpg",
+      "source_image_id": 8,
+      "annotation_id": 32,
+      "bbox": [
+        315.5,
+        188,
+        17.26,
+        18.22
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_05ec4c070fb0.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "image_20251121_163920_0013_png.rf.835915f0c5903bc30db439dad1fd4b44.jpg",
+      "source_image_id": 8,
+      "annotation_id": 33,
+      "bbox": [
+        349,
+        184,
+        28.78,
+        30.23
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_dd35ac104211.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "image_20251121_164312_0027_png.rf.006dea202dfae12ffc303011eb80085d.jpg",
+      "source_image_id": 2,
+      "annotation_id": 15,
+      "bbox": [
+        255,
+        85.75,
+        13.3,
+        15.23
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_4c0a84da8711.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "image_20251121_164312_0027_png.rf.006dea202dfae12ffc303011eb80085d.jpg",
+      "source_image_id": 2,
+      "annotation_id": 16,
+      "bbox": [
+        278.63,
+        148.18,
+        13.54,
+        13.98
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\train\\green\\green_9af9fcc1a1bb.jpg",
+      "split": "train",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "image_20251121_164312_0027_png.rf.006dea202dfae12ffc303011eb80085d.jpg",
+      "source_image_id": 2,
+      "annotation_id": 19,
+      "bbox": [
+        268.54,
+        343.58,
+        12.17,
+        13.22
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_c4c113ad6d93.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "016_jpg.rf.a1fc6b2e4ce8d057e28dbb31b3190b55.jpg",
+      "source_image_id": 18,
+      "annotation_id": 59,
+      "bbox": [
+        257,
+        121.5,
+        14.72,
+        16.17
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_fa9bfbb19f2b.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "016_jpg.rf.a1fc6b2e4ce8d057e28dbb31b3190b55.jpg",
+      "source_image_id": 18,
+      "annotation_id": 60,
+      "bbox": [
+        261,
+        303.51,
+        16.23,
+        16.31
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_6bf2e7c7c50b.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "016_jpg.rf.a1fc6b2e4ce8d057e28dbb31b3190b55.jpg",
+      "source_image_id": 18,
+      "annotation_id": 61,
+      "bbox": [
+        627.01,
+        153.5,
+        9.29,
+        13.19
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_cdbd1896c6c6.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "016_jpg.rf.a1fc6b2e4ce8d057e28dbb31b3190b55.jpg",
+      "source_image_id": 18,
+      "annotation_id": 62,
+      "bbox": [
+        625.01,
+        277,
+        11.79,
+        15.29
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_b49d2fdc4d19.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "016_jpg.rf.a1fc6b2e4ce8d057e28dbb31b3190b55.jpg",
+      "source_image_id": 18,
+      "annotation_id": 63,
+      "bbox": [
+        603.5,
+        277,
+        13.28,
+        13.28
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_def69cc20d65.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "016_jpg.rf.a1fc6b2e4ce8d057e28dbb31b3190b55.jpg",
+      "source_image_id": 18,
+      "annotation_id": 64,
+      "bbox": [
+        603,
+        154,
+        11.78,
+        13.69
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_106903ae7c99.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "016_jpg.rf.a1fc6b2e4ce8d057e28dbb31b3190b55.jpg",
+      "source_image_id": 18,
+      "annotation_id": 65,
+      "bbox": [
+        612,
+        121.5,
+        10.79,
+        12.16
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_f72850f073e3.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "022_jpg.rf.c8eb2ac7a989a9dec11fb470a572bd67.jpg",
+      "source_image_id": 28,
+      "annotation_id": 108,
+      "bbox": [
+        251,
+        204.01,
+        12.22,
+        12.23
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_15c4992c1bc1.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "022_jpg.rf.c8eb2ac7a989a9dec11fb470a572bd67.jpg",
+      "source_image_id": 28,
+      "annotation_id": 109,
+      "bbox": [
+        251.2,
+        220.1,
+        11.82,
+        12.04
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_a911977beada.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "030_jpg.rf.cea033d125f1791ea21dfad06c06f0ba.jpg",
+      "source_image_id": 20,
+      "annotation_id": 70,
+      "bbox": [
+        262.59,
+        114.01,
+        15.46,
+        16.89
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_3065fee72c64.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "030_jpg.rf.cea033d125f1791ea21dfad06c06f0ba.jpg",
+      "source_image_id": 20,
+      "annotation_id": 71,
+      "bbox": [
+        268.77,
+        306.59,
+        14.55,
+        15.79
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_51de8a1fa9a6.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "060_jpg.rf.938d0687b6c2a872f570b9ca7bec791f.jpg",
+      "source_image_id": 24,
+      "annotation_id": 86,
+      "bbox": [
+        93.25,
+        97.96,
+        14.82,
+        13.51
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_f6aa868cfe64.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "060_jpg.rf.938d0687b6c2a872f570b9ca7bec791f.jpg",
+      "source_image_id": 24,
+      "annotation_id": 87,
+      "bbox": [
+        99.49,
+        160.26,
+        12.77,
+        13.17
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_c7b66d75cc3f.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "060_jpg.rf.938d0687b6c2a872f570b9ca7bec791f.jpg",
+      "source_image_id": 24,
+      "annotation_id": 90,
+      "bbox": [
+        95.39,
+        289.23,
+        11.29,
+        11.79
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_43111a38a774.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "060_jpg.rf.938d0687b6c2a872f570b9ca7bec791f.jpg",
+      "source_image_id": 24,
+      "annotation_id": 91,
+      "bbox": [
+        129.23,
+        290.77,
+        9,
+        11.4
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_8057cfe960d3.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "060_jpg.rf.938d0687b6c2a872f570b9ca7bec791f.jpg",
+      "source_image_id": 24,
+      "annotation_id": 92,
+      "bbox": [
+        596.01,
+        330.01,
+        10.91,
+        10.83
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_8599b8c16001.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "060_jpg.rf.938d0687b6c2a872f570b9ca7bec791f.jpg",
+      "source_image_id": 24,
+      "annotation_id": 93,
+      "bbox": [
+        595.01,
+        362,
+        12.41,
+        13.36
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_881186d60cea.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "060_jpg.rf.938d0687b6c2a872f570b9ca7bec791f.jpg",
+      "source_image_id": 24,
+      "annotation_id": 94,
+      "bbox": [
+        594.01,
+        394,
+        12.41,
+        12.38
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_46c954fab817.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "082_jpg.rf.fd6b93d30a1a846dee53b855351cab41.jpg",
+      "source_image_id": 4,
+      "annotation_id": 11,
+      "bbox": [
+        346.13,
+        117.5,
+        16.27,
+        18.06
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_c933e97d06cc.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "082_jpg.rf.fd6b93d30a1a846dee53b855351cab41.jpg",
+      "source_image_id": 4,
+      "annotation_id": 12,
+      "bbox": [
+        349.88,
+        303.13,
+        19.92,
+        21.09
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_8bce784ba99f.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "092_jpg.rf.fb2463ce0b00d3b228319f668e719c42.jpg",
+      "source_image_id": 43,
+      "annotation_id": 149,
+      "bbox": [
+        267,
+        204.01,
+        12.35,
+        14.01
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_d1dfb4437853.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "092_jpg.rf.fb2463ce0b00d3b228319f668e719c42.jpg",
+      "source_image_id": 43,
+      "annotation_id": 150,
+      "bbox": [
+        267,
+        219.68,
+        13.55,
+        12.07
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_91ed9ae09907.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163910_0011_png.rf.afd7c5d87c5eb98f6340606bad319512.jpg",
+      "source_image_id": 60,
+      "annotation_id": 212,
+      "bbox": [
+        332.34,
+        112.56,
+        21.48,
+        23.11
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_cf44cdb31763.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163910_0011_png.rf.afd7c5d87c5eb98f6340606bad319512.jpg",
+      "source_image_id": 60,
+      "annotation_id": 213,
+      "bbox": [
+        309.29,
+        114.29,
+        13.09,
+        17.15
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_9affe87298a3.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163910_0011_png.rf.afd7c5d87c5eb98f6340606bad319512.jpg",
+      "source_image_id": 60,
+      "annotation_id": 214,
+      "bbox": [
+        333.27,
+        410.61,
+        21.73,
+        21.68
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_1bf2a822bc24.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163910_0011_png.rf.afd7c5d87c5eb98f6340606bad319512.jpg",
+      "source_image_id": 60,
+      "annotation_id": 215,
+      "bbox": [
+        310.37,
+        411.43,
+        14.27,
+        15.24
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_e6ffbd19aadc.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163910_0011_png.rf.afd7c5d87c5eb98f6340606bad319512.jpg",
+      "source_image_id": 60,
+      "annotation_id": 216,
+      "bbox": [
+        309.43,
+        428.47,
+        14.9,
+        14.13
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_a604839ecd86.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164057_0019_png.rf.77b229bc70300a0e2b19211d90c9134d.jpg",
+      "source_image_id": 34,
+      "annotation_id": 123,
+      "bbox": [
+        457.5,
+        69.01,
+        20.84,
+        23.13
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_16ffa5c7627a.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164057_0019_png.rf.77b229bc70300a0e2b19211d90c9134d.jpg",
+      "source_image_id": 34,
+      "annotation_id": 124,
+      "bbox": [
+        163.01,
+        92.99,
+        16.17,
+        20.15
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_a894cdf53515.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164057_0019_png.rf.77b229bc70300a0e2b19211d90c9134d.jpg",
+      "source_image_id": 34,
+      "annotation_id": 125,
+      "bbox": [
+        180,
+        359.5,
+        15.18,
+        16.86
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_628635f089a3.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164057_0019_png.rf.77b229bc70300a0e2b19211d90c9134d.jpg",
+      "source_image_id": 34,
+      "annotation_id": 126,
+      "bbox": [
+        433.5,
+        331,
+        18.33,
+        19.34
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_e207f81a3234.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164141_0022_png.rf.a6bc705b562327822bb24cc8d48f4658.jpg",
+      "source_image_id": 63,
+      "annotation_id": 224,
+      "bbox": [
+        223.46,
+        213.49,
+        17.02,
+        17.57
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_681b1fdb8f8c.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164141_0022_png.rf.a6bc705b562327822bb24cc8d48f4658.jpg",
+      "source_image_id": 63,
+      "annotation_id": 225,
+      "bbox": [
+        223.48,
+        234.25,
+        19.65,
+        17.84
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_4bcf8b81cf5e.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164303_0026_png.rf.99d96e0953bfacd8dbb834dfbcb102a3.jpg",
+      "source_image_id": 0,
+      "annotation_id": 1,
+      "bbox": [
+        265.5,
+        101.01,
+        15.73,
+        17.65
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\yellow\\yellow_c7875d37aeac.jpg",
+      "split": "valid",
+      "label": "yellow",
+      "class_index": 1,
+      "source_split": "train",
+      "source_file": "image_20251121_164303_0026_png.rf.99d96e0953bfacd8dbb834dfbcb102a3.jpg",
+      "source_image_id": 0,
+      "annotation_id": 3,
+      "bbox": [
+        284.5,
+        119.5,
+        22.74,
+        23.17
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_1d9d1bdf958a.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164712_0040_png.rf.688f4ab66ffd9f269f89b680aa1ad422.jpg",
+      "source_image_id": 25,
+      "annotation_id": 95,
+      "bbox": [
+        261,
+        174.99,
+        14.16,
+        14.49
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_bd56cc9ff94b.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164712_0040_png.rf.688f4ab66ffd9f269f89b680aa1ad422.jpg",
+      "source_image_id": 25,
+      "annotation_id": 96,
+      "bbox": [
+        266.01,
+        231.34,
+        10.83,
+        12.89
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_6dd54245bd12.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164712_0040_png.rf.688f4ab66ffd9f269f89b680aa1ad422.jpg",
+      "source_image_id": 25,
+      "annotation_id": 97,
+      "bbox": [
+        280.34,
+        230.98,
+        11.2,
+        12.18
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_7a8d626da1bb.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164712_0040_png.rf.688f4ab66ffd9f269f89b680aa1ad422.jpg",
+      "source_image_id": 25,
+      "annotation_id": 98,
+      "bbox": [
+        219.97,
+        163.96,
+        11.48,
+        12.5
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_cc514b4b9966.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164712_0040_png.rf.688f4ab66ffd9f269f89b680aa1ad422.jpg",
+      "source_image_id": 25,
+      "annotation_id": 99,
+      "bbox": [
+        224.28,
+        222.67,
+        10.5,
+        12.27
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_ad03475e4d5e.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164758_0041_png.rf.8a6ddd04b83fc9ebaa4f119626e433a9.jpg",
+      "source_image_id": 80,
+      "annotation_id": 299,
+      "bbox": [
+        280.77,
+        197.7,
+        14.02,
+        13.25
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_2dba11e52b2c.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164758_0041_png.rf.8a6ddd04b83fc9ebaa4f119626e433a9.jpg",
+      "source_image_id": 80,
+      "annotation_id": 300,
+      "bbox": [
+        236.15,
+        192.31,
+        10.92,
+        11.7
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_e6342e173051.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164758_0041_png.rf.8a6ddd04b83fc9ebaa4f119626e433a9.jpg",
+      "source_image_id": 80,
+      "annotation_id": 301,
+      "bbox": [
+        240.38,
+        248.85,
+        12.08,
+        13.67
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_7b9f5b8e9c02.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164758_0041_png.rf.8a6ddd04b83fc9ebaa4f119626e433a9.jpg",
+      "source_image_id": 80,
+      "annotation_id": 302,
+      "bbox": [
+        271.15,
+        255.77,
+        10.56,
+        11.37
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_264ab603a9fe.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164758_0041_png.rf.8a6ddd04b83fc9ebaa4f119626e433a9.jpg",
+      "source_image_id": 80,
+      "annotation_id": 303,
+      "bbox": [
+        286.93,
+        253.08,
+        10.56,
+        11.75
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_283312328196.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164758_0041_png.rf.8a6ddd04b83fc9ebaa4f119626e433a9.jpg",
+      "source_image_id": 80,
+      "annotation_id": 304,
+      "bbox": [
+        301.15,
+        252.7,
+        11.34,
+        11.36
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_2a94a82cd929.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164856_0045_png.rf.fdd3a52301cc71689d048ecee12ac893.jpg",
+      "source_image_id": 11,
+      "annotation_id": 37,
+      "bbox": [
+        304.77,
+        180.68,
+        20.54,
+        22.01
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_423176cee6fc.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "042_jpg.rf.f1896e91bce4968095fd8697eebe7627.jpg",
+      "source_image_id": 7,
+      "annotation_id": 29,
+      "bbox": [
+        228.01,
+        318.67,
+        8.45,
+        7.9
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_dd13f974036c.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "042_jpg.rf.f1896e91bce4968095fd8697eebe7627.jpg",
+      "source_image_id": 7,
+      "annotation_id": 30,
+      "bbox": [
+        246.67,
+        317.99,
+        8.46,
+        7.57
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\valid\\green\\green_e314bf174dc6.jpg",
+      "split": "valid",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "042_jpg.rf.f1896e91bce4968095fd8697eebe7627.jpg",
+      "source_image_id": 7,
+      "annotation_id": 31,
+      "bbox": [
+        245.67,
+        138,
+        9.46,
+        9.42
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_cb1676ebbb94.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "012_jpg.rf.e970d3c669cd152cd19ecdc60d618b5b.jpg",
+      "source_image_id": 88,
+      "annotation_id": 327,
+      "bbox": [
+        331,
+        110.01,
+        13.37,
+        16.97
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_cf2e89b150d9.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "012_jpg.rf.e970d3c669cd152cd19ecdc60d618b5b.jpg",
+      "source_image_id": 88,
+      "annotation_id": 328,
+      "bbox": [
+        337.15,
+        129.65,
+        11.02,
+        12.78
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_36daa47275d5.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "012_jpg.rf.e970d3c669cd152cd19ecdc60d618b5b.jpg",
+      "source_image_id": 88,
+      "annotation_id": 329,
+      "bbox": [
+        331,
+        291,
+        13.17,
+        14.5
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_f0dd266227fe.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "012_jpg.rf.e970d3c669cd152cd19ecdc60d618b5b.jpg",
+      "source_image_id": 88,
+      "annotation_id": 330,
+      "bbox": [
+        337.99,
+        309.25,
+        11.18,
+        12.62
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_a732d108212f.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "012_jpg.rf.e970d3c669cd152cd19ecdc60d618b5b.jpg",
+      "source_image_id": 88,
+      "annotation_id": 331,
+      "bbox": [
+        331,
+        455.51,
+        13.77,
+        14.93
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_1fddeab15f23.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "012_jpg.rf.e970d3c669cd152cd19ecdc60d618b5b.jpg",
+      "source_image_id": 88,
+      "annotation_id": 332,
+      "bbox": [
+        337,
+        472.5,
+        11.77,
+        7.5
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_63087d3bad70.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "031_jpg.rf.eb5170836ce7737c921c5022a5855d9f.jpg",
+      "source_image_id": 70,
+      "annotation_id": 251,
+      "bbox": [
+        385.82,
+        153.6,
+        13.27,
+        14.67
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_c258fb1c9e57.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "031_jpg.rf.eb5170836ce7737c921c5022a5855d9f.jpg",
+      "source_image_id": 70,
+      "annotation_id": 252,
+      "bbox": [
+        389.21,
+        297.6,
+        12.8,
+        13.31
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_31dc3bc99681.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "031_jpg.rf.eb5170836ce7737c921c5022a5855d9f.jpg",
+      "source_image_id": 70,
+      "annotation_id": 253,
+      "bbox": [
+        395,
+        438,
+        11.8,
+        12.42
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_9ca8121bbd3c.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "033_jpg.rf.8b5ba022c1f066e5941bccfaaa529a44.jpg",
+      "source_image_id": 6,
+      "annotation_id": 19,
+      "bbox": [
+        234.29,
+        168.58,
+        11.21,
+        10.13
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_d742b62056a0.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "033_jpg.rf.8b5ba022c1f066e5941bccfaaa529a44.jpg",
+      "source_image_id": 6,
+      "annotation_id": 20,
+      "bbox": [
+        50,
+        125,
+        10.39,
+        12.6
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_2e3ae985e16b.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "033_jpg.rf.8b5ba022c1f066e5941bccfaaa529a44.jpg",
+      "source_image_id": 6,
+      "annotation_id": 21,
+      "bbox": [
+        61.43,
+        258.58,
+        10.4,
+        11.63
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_11ca1ce4fe94.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "033_jpg.rf.8b5ba022c1f066e5941bccfaaa529a44.jpg",
+      "source_image_id": 6,
+      "annotation_id": 22,
+      "bbox": [
+        64.28,
+        295.01,
+        10.4,
+        12.73
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_175f2b72c258.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "033_jpg.rf.8b5ba022c1f066e5941bccfaaa529a44.jpg",
+      "source_image_id": 6,
+      "annotation_id": 23,
+      "bbox": [
+        180.71,
+        235.72,
+        8.68,
+        9.83
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_97475564f046.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "033_jpg.rf.8b5ba022c1f066e5941bccfaaa529a44.jpg",
+      "source_image_id": 6,
+      "annotation_id": 24,
+      "bbox": [
+        137.14,
+        253.57,
+        7.96,
+        8.4
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_7094cdbe264c.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "033_jpg.rf.8b5ba022c1f066e5941bccfaaa529a44.jpg",
+      "source_image_id": 6,
+      "annotation_id": 25,
+      "bbox": [
+        127.14,
+        120.72,
+        10.1,
+        11.87
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\yellow\\yellow_eec33b7571f0.jpg",
+      "split": "test",
+      "label": "yellow",
+      "class_index": 1,
+      "source_split": "train",
+      "source_file": "033_jpg.rf.8b5ba022c1f066e5941bccfaaa529a44.jpg",
+      "source_image_id": 6,
+      "annotation_id": 26,
+      "bbox": [
+        184.28,
+        104.29,
+        11.92,
+        8.28
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\yellow\\yellow_0541bf0b07e3.jpg",
+      "split": "test",
+      "label": "yellow",
+      "class_index": 1,
+      "source_split": "train",
+      "source_file": "033_jpg.rf.8b5ba022c1f066e5941bccfaaa529a44.jpg",
+      "source_image_id": 6,
+      "annotation_id": 27,
+      "bbox": [
+        193.58,
+        235.71,
+        10.49,
+        7.68
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_c6ac253fbd15.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "041_jpg.rf.25b23cdbff7ff071c5ac83ad8a76156d.jpg",
+      "source_image_id": 69,
+      "annotation_id": 249,
+      "bbox": [
+        294,
+        191.62,
+        13.36,
+        15.6
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_ea13d2979cf3.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "041_jpg.rf.25b23cdbff7ff071c5ac83ad8a76156d.jpg",
+      "source_image_id": 69,
+      "annotation_id": 250,
+      "bbox": [
+        272.39,
+        66.62,
+        14.87,
+        15.78
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_5f50da905fb0.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163711_0006_png.rf.91e29fa44dbd5abe78231a2a797b0ab6.jpg",
+      "source_image_id": 78,
+      "annotation_id": 290,
+      "bbox": [
+        165.01,
+        170.71,
+        15.81,
+        18
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_dde93f3d5f67.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163711_0006_png.rf.91e29fa44dbd5abe78231a2a797b0ab6.jpg",
+      "source_image_id": 78,
+      "annotation_id": 291,
+      "bbox": [
+        175.32,
+        282.86,
+        15.15,
+        17.37
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_2349fcad6c09.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163711_0006_png.rf.91e29fa44dbd5abe78231a2a797b0ab6.jpg",
+      "source_image_id": 78,
+      "annotation_id": 292,
+      "bbox": [
+        185.67,
+        387.48,
+        13.73,
+        16.38
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_b61ac3a66c52.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163711_0006_png.rf.91e29fa44dbd5abe78231a2a797b0ab6.jpg",
+      "source_image_id": 78,
+      "annotation_id": 293,
+      "bbox": [
+        196.67,
+        178.86,
+        19.32,
+        17.8
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_8a37952b3cac.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163711_0006_png.rf.91e29fa44dbd5abe78231a2a797b0ab6.jpg",
+      "source_image_id": 78,
+      "annotation_id": 294,
+      "bbox": [
+        204.48,
+        293.15,
+        22.28,
+        16.73
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_f85d56196af6.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163711_0006_png.rf.91e29fa44dbd5abe78231a2a797b0ab6.jpg",
+      "source_image_id": 78,
+      "annotation_id": 295,
+      "bbox": [
+        208.18,
+        398.39,
+        25.66,
+        18.03
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_af9dd25f653c.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163901_0010_png.rf.79f6a4c319a5aea9a8f0c7780b62d0ee.jpg",
+      "source_image_id": 56,
+      "annotation_id": 192,
+      "bbox": [
+        473,
+        78,
+        17.35,
+        20.64
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_e99ece3fb745.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163901_0010_png.rf.79f6a4c319a5aea9a8f0c7780b62d0ee.jpg",
+      "source_image_id": 56,
+      "annotation_id": 193,
+      "bbox": [
+        503.99,
+        76,
+        25.37,
+        28.14
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_e1738a09332d.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163901_0010_png.rf.79f6a4c319a5aea9a8f0c7780b62d0ee.jpg",
+      "source_image_id": 56,
+      "annotation_id": 194,
+      "bbox": [
+        489.5,
+        417,
+        22.86,
+        23.41
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_d542760c0c0c.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163901_0010_png.rf.79f6a4c319a5aea9a8f0c7780b62d0ee.jpg",
+      "source_image_id": 56,
+      "annotation_id": 195,
+      "bbox": [
+        461,
+        416.5,
+        16.34,
+        15.9
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_1d8c2441bee3.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163901_0010_png.rf.79f6a4c319a5aea9a8f0c7780b62d0ee.jpg",
+      "source_image_id": 56,
+      "annotation_id": 196,
+      "bbox": [
+        460.5,
+        435,
+        15.34,
+        14.92
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_58586320faf6.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163927_0014_png.rf.9b9fe211531f261589b129ab322939a6.jpg",
+      "source_image_id": 23,
+      "annotation_id": 82,
+      "bbox": [
+        280.51,
+        95.99,
+        10.23,
+        14.15
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_a62bd8c5956c.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163927_0014_png.rf.9b9fe211531f261589b129ab322939a6.jpg",
+      "source_image_id": 23,
+      "annotation_id": 83,
+      "bbox": [
+        282.24,
+        155.01,
+        9.73,
+        14.69
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_b690ae694f68.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163927_0014_png.rf.9b9fe211531f261589b129ab322939a6.jpg",
+      "source_image_id": 23,
+      "annotation_id": 84,
+      "bbox": [
+        284.88,
+        365.37,
+        8.73,
+        14.86
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_7560a4c81b3e.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_163927_0014_png.rf.9b9fe211531f261589b129ab322939a6.jpg",
+      "source_image_id": 23,
+      "annotation_id": 85,
+      "bbox": [
+        286,
+        415,
+        9.24,
+        14.9
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_0c07ee83e07c.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164037_0017_png.rf.3a78e2d4dab66a9730d0b33670ef4a11.jpg",
+      "source_image_id": 92,
+      "annotation_id": 351,
+      "bbox": [
+        153,
+        84.5,
+        19.67,
+        19.14
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_6e37cb799f23.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164037_0017_png.rf.3a78e2d4dab66a9730d0b33670ef4a11.jpg",
+      "source_image_id": 92,
+      "annotation_id": 352,
+      "bbox": [
+        166.51,
+        306.5,
+        16.67,
+        17.82
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_f8cae5ad6b6e.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164251_0024_png.rf.675a20be2f8f52e5668f4b726f396373.jpg",
+      "source_image_id": 66,
+      "annotation_id": 234,
+      "bbox": [
+        245.18,
+        304,
+        14.95,
+        18.28
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_941af1ca3d46.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164251_0024_png.rf.675a20be2f8f52e5668f4b726f396373.jpg",
+      "source_image_id": 66,
+      "annotation_id": 235,
+      "bbox": [
+        272.51,
+        379.51,
+        14.23,
+        16.87
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_1d17d9fdb617.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164452_0032_png.rf.14a237ab592eba29b4917457394c480e.jpg",
+      "source_image_id": 45,
+      "annotation_id": 158,
+      "bbox": [
+        200.01,
+        336.59,
+        13.33,
+        14.9
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_69139b76205b.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164611_0036_png.rf.86c9d33292fb8a9cf855fa13eabc51f4.jpg",
+      "source_image_id": 68,
+      "annotation_id": 240,
+      "bbox": [
+        133.27,
+        336.92,
+        10.76,
+        10.88
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_671e647be63e.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164611_0036_png.rf.86c9d33292fb8a9cf855fa13eabc51f4.jpg",
+      "source_image_id": 68,
+      "annotation_id": 241,
+      "bbox": [
+        38.46,
+        363.08,
+        10.04,
+        10.12
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_f87f6a599683.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164611_0036_png.rf.86c9d33292fb8a9cf855fa13eabc51f4.jpg",
+      "source_image_id": 68,
+      "annotation_id": 242,
+      "bbox": [
+        132.31,
+        387.4,
+        13.64,
+        11.72
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_beb3dc1bdc3a.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164611_0036_png.rf.86c9d33292fb8a9cf855fa13eabc51f4.jpg",
+      "source_image_id": 68,
+      "annotation_id": 243,
+      "bbox": [
+        155.68,
+        369.04,
+        12.98,
+        11.42
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_51b692f1058f.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164611_0036_png.rf.86c9d33292fb8a9cf855fa13eabc51f4.jpg",
+      "source_image_id": 68,
+      "annotation_id": 244,
+      "bbox": [
+        140.2,
+        367.79,
+        13.45,
+        10.07
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_0c0ed9b03728.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164611_0036_png.rf.86c9d33292fb8a9cf855fa13eabc51f4.jpg",
+      "source_image_id": 68,
+      "annotation_id": 245,
+      "bbox": [
+        234.14,
+        342.89,
+        10.67,
+        10.33
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_a01247bf583f.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164611_0036_png.rf.86c9d33292fb8a9cf855fa13eabc51f4.jpg",
+      "source_image_id": 68,
+      "annotation_id": 246,
+      "bbox": [
+        251.15,
+        345.39,
+        11.07,
+        9.09
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_660f1a5e3eb7.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164611_0036_png.rf.86c9d33292fb8a9cf855fa13eabc51f4.jpg",
+      "source_image_id": 68,
+      "annotation_id": 247,
+      "bbox": [
+        342.41,
+        396.73,
+        12.11,
+        9.89
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_1794a2a1c758.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164611_0036_png.rf.86c9d33292fb8a9cf855fa13eabc51f4.jpg",
+      "source_image_id": 68,
+      "annotation_id": 248,
+      "bbox": [
+        475.19,
+        403.56,
+        14.6,
+        12.2
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_a74d619d4ad4.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164704_0038_png.rf.5dbc617c8b0ea497b1b41e806999f967.jpg",
+      "source_image_id": 74,
+      "annotation_id": 268,
+      "bbox": [
+        294.6,
+        310.23,
+        15.72,
+        17.75
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_b263b37712fa.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164704_0038_png.rf.5dbc617c8b0ea497b1b41e806999f967.jpg",
+      "source_image_id": 74,
+      "annotation_id": 269,
+      "bbox": [
+        299.03,
+        364.44,
+        12.61,
+        14.7
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_acf85fe3f167.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164704_0038_png.rf.5dbc617c8b0ea497b1b41e806999f967.jpg",
+      "source_image_id": 74,
+      "annotation_id": 270,
+      "bbox": [
+        313.98,
+        363.35,
+        12.62,
+        14.62
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_76b336d80716.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164704_0038_png.rf.5dbc617c8b0ea497b1b41e806999f967.jpg",
+      "source_image_id": 74,
+      "annotation_id": 271,
+      "bbox": [
+        250.78,
+        305.3,
+        14.06,
+        14.49
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_56ee0a436a42.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164704_0038_png.rf.5dbc617c8b0ea497b1b41e806999f967.jpg",
+      "source_image_id": 74,
+      "annotation_id": 272,
+      "bbox": [
+        255.84,
+        357.86,
+        12.11,
+        15.24
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_8d25c06c45af.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164704_0038_png.rf.5dbc617c8b0ea497b1b41e806999f967.jpg",
+      "source_image_id": 74,
+      "annotation_id": 273,
+      "bbox": [
+        6.72,
+        392.24,
+        12.45,
+        15.35
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_f51f5e296c29.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164704_0038_png.rf.5dbc617c8b0ea497b1b41e806999f967.jpg",
+      "source_image_id": 74,
+      "annotation_id": 274,
+      "bbox": [
+        0,
+        335.4,
+        6.58,
+        16.66
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_cc313fdc6ae9.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164708_0039_png.rf.a43afe5acda6b0641cb690c94f3b627c.jpg",
+      "source_image_id": 55,
+      "annotation_id": 188,
+      "bbox": [
+        289.65,
+        196.58,
+        16.21,
+        16.22
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_b0450f417b39.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164708_0039_png.rf.a43afe5acda6b0641cb690c94f3b627c.jpg",
+      "source_image_id": 55,
+      "annotation_id": 189,
+      "bbox": [
+        244.61,
+        187.28,
+        12.4,
+        13.52
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_014eaacd48c8.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164708_0039_png.rf.a43afe5acda6b0641cb690c94f3b627c.jpg",
+      "source_image_id": 55,
+      "annotation_id": 190,
+      "bbox": [
+        248.88,
+        249.23,
+        12.69,
+        14.21
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_d063c1abb491.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "train",
+      "source_file": "image_20251121_164708_0039_png.rf.a43afe5acda6b0641cb690c94f3b627c.jpg",
+      "source_image_id": 55,
+      "annotation_id": 191,
+      "bbox": [
+        309.71,
+        256.63,
+        12.69,
+        12.74
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    },
+    {
+      "path": "data\\processed\\led_crops\\test\\green\\green_2eaa3b40d4a2.jpg",
+      "split": "test",
+      "label": "green",
+      "class_index": 0,
+      "source_split": "valid",
+      "source_file": "029_jpg.rf.a9b444b4b127b294f4ad419ccf3fe8c8.jpg",
+      "source_image_id": 5,
+      "annotation_id": 26,
+      "bbox": [
+        204.01,
+        152.01,
+        11.69,
+        16.19
+      ],
+      "padding_fraction": 0.25,
+      "size": 64
+    }
+  ]
+}

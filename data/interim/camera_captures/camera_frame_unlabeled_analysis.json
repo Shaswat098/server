@@ -1,0 +1,31 @@
+{
+  "image": "data\\interim\\camera_captures\\camera_frame_unlabeled.png",
+  "shape": [
+    120,
+    160,
+    3
+  ],
+  "brightness": {
+    "mean": 3.6118574142456055,
+    "maximum": 6.666666507720947,
+    "p99_5": 6.666666507720947,
+    "peak_threshold": 32.0,
+    "peak_pixel_count": 0
+  },
+  "brightest_region": null,
+  "fixed_crop": {
+    "left": 20,
+    "right_exclusive": 140,
+    "peak_pixels_inside": 0,
+    "peak_coverage": 0.0
+  },
+  "mean_color_dominance": {
+    "red": 1.0710417032241821,
+    "green": 0.06174479052424431,
+    "blue": -1.132786512374878
+  },
+  "limitations": [
+    "Brightness and color concentration do not identify the LED semantic label.",
+    "A known-color, adequately exposed capture is required for crop-policy decisions."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "model": "Candidate B depthwise-separable CNN",
+  "input": {
+    "shape": [
+      64,
+      64,
+      3
+    ],
+    "dtype": "float32",
+    "range": [
+      0.0,
+      1.0
+    ]
+  },
+  "test_sample_count": 61,
+  "keras_pytorch_max_abs_logit_error": 5.960464477539063e-08,
+  "tflite_pytorch_max_abs_logit_error": 1.7881393432617188e-07,
+  "tflite_size_bytes": 9848,
+  "tflite_path": "data\\interim\\tflite\\candidate_b_float32.tflite",
+  "limitations": [
+    "This is a float32 TFLite export; embedded INT8 conversion remains a later deployment step.",
+    "The test set contains only two yellow crops, so parity does not establish health-classifier quality.",
+    "LED color is a proxy for server status, not proof of server health."
+  ]
+}

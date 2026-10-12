@@ -1,0 +1,24 @@
+.pio/build/esp32cam_int8/libbc3/tflite-micro/tensorflow/lite/micro/flatbuffer_conversions.cc.o: \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/flatbuffer_conversions.cc \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/flatbuffer_conversions.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/micro_common.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/schema/schema_generated.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/third_party/flatbuffers/include/flatbuffers/flatbuffers.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/third_party/flatbuffers/include/flatbuffers/array.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/third_party/flatbuffers/include/flatbuffers/base.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/third_party/flatbuffers/include/flatbuffers/stl_emulation.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/third_party/flatbuffers/include/flatbuffers/vector.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/third_party/flatbuffers/include/flatbuffers/buffer.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/third_party/flatbuffers/include/flatbuffers/buffer_ref.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/third_party/flatbuffers/include/flatbuffers/verifier.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/third_party/flatbuffers/include/flatbuffers/detached_buffer.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/third_party/flatbuffers/include/flatbuffers/allocator.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/third_party/flatbuffers/include/flatbuffers/default_allocator.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/third_party/flatbuffers/include/flatbuffers/flatbuffer_builder.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/third_party/flatbuffers/include/flatbuffers/string.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/third_party/flatbuffers/include/flatbuffers/struct.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/third_party/flatbuffers/include/flatbuffers/table.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/third_party/flatbuffers/include/flatbuffers/vector_downward.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/builtin_op_data.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/compatibility.h \
+ .pio/libdeps/esp32cam_int8/tflite-micro/src/tensorflow/lite/micro/micro_log.h
